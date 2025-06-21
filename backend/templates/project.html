@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ project.title }} - 技术方案</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.1.0/github-markdown.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.5.0/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Microsoft YaHei', sans-serif;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+        .content-section {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .reference-card {
+            background: #f8f9fa;
+            border-left: 5px solid #6c63ff;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+        .footer {
+            background: #343a40;
+            color: white;
+            padding: 1.5rem 0;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>{{ project.title }}</h1>
+            <p class="lead">生成于: {{ project.created_at }}</p>
+            <div class="mt-3">
+                <a href="/" class="btn btn-outline-light">返回主页</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="content-section">
+            <h2>项目信息</h2>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <th scope="row">主题</th>
+                        <td>{{ project.topic }}</td>
+                    </tr>
+                    {% if project.result and project.result.translated_topic %}
+                    <tr>
+                        <th scope="row">英文搜索关键词</th>
+                        <td>{{ project.result.translated_topic }}</td>
+                    </tr>
+                    {% endif %}
+                    <tr>
+                        <th scope="row">状态</th>
+                        <td>
+                            {% if project.status == "completed" %}
+                            <span class="badge bg-success">已完成</span>
+                            {% elif project.status == "processing" %}
+                            <span class="badge bg-warning text-dark">处理中</span>
+                            {% elif project.status == "failed" %}
+                            <span class="badge bg-danger">失败</span>
+                            {% else %}
+                            <span class="badge bg-secondary">{{ project.status }}</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% if project.status_message %}
+                    <tr>
+                        <th scope="row">状态消息</th>
+                        <td>{{ project.status_message }}</td>
+                    </tr>
+                    {% endif %}
+                </tbody>
+            </table>
+        </section>
+
+        {% if project.result %}
+        <section class="content-section">
+            <h2>技术方案</h2>
+            <div class="markdown-body">
+                {{ project.result.technical_proposal | safe }}
+            </div>
+        </section>
+
+        {% if project.result.references %}
+        <section class="content-section">
+            <h2>参考资料</h2>
+            <div class="row">
+                {% for paper in project.result.references %}
+                <div class="col-12">
+                    <div class="reference-card">
+                        <h5>{{ paper.title }}</h5>
+                        <p><strong>作者:</strong> {{ paper.authors | join(", ") }}</p>
+                        <p><strong>摘要:</strong> {{ paper.summary[:200] }}...</p>
+                        <p><strong>发布日期:</strong> {{ paper.published }}</p>
+                        <div class="mt-2">
+                            <a href="/api/papers/{{ paper.id }}/pdf" class="btn btn-sm btn-primary" target="_blank">下载PDF</a>
+                            <a href="{{ paper.pdf_url }}" class="btn btn-sm btn-outline-secondary" target="_blank">访问原始链接</a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+        {% endif %}
+
+        {% if project.error %}
+        <section class="content-section">
+            <div class="alert alert-danger">
+                <h3>处理过程中出现错误</h3>
+                <p>{{ project.error }}</p>
+            </div>
+        </section>
+        {% endif %}
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>© 2024 技术方案生成AI. 基于豆包大模型构建.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 初始化Mermaid
+            mermaid.initialize({ startOnLoad: true, theme: 'default' });
+        });
+    </script>
+</body>
+</html> 

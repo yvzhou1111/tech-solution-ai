@@ -1,0 +1,1168 @@
+{
+    "projects": {
+        "832d2e41-d013-40d9-b963-0831733c47ff": {
+            "topic": "构建最智能的具身智能机器人",
+            "keywords": [],
+            "requirements": null,
+            "max_papers": 10,
+            "status": "pending",
+            "created_at": "2025-06-20T16:10:27.773009",
+            "expires_at": "2025-06-21T16:10:27.773009"
+        },
+        "2bf9bdb4-6719-41ee-be2f-af9429e7427e": {
+            "topic": "构建最智能的具身智能机器人",
+            "keywords": [],
+            "requirements": null,
+            "max_papers": 10,
+            "status": "pending",
+            "created_at": "2025-06-20T16:10:35.358170",
+            "expires_at": "2025-06-21T16:10:35.358170"
+        },
+        "1cb48fbf-74e6-408f-8367-d250b2883cc5": {
+            "topic": "构建最智能的具身智能机器人",
+            "keywords": [],
+            "requirements": null,
+            "max_papers": 10,
+            "status": "error",
+            "created_at": "2025-06-20T16:16:04.598308",
+            "expires_at": "2025-06-21T16:16:04.598308",
+            "error": "未找到相关论文"
+        },
+        "3c479a65-516a-474d-8649-cf53ee732719": {
+            "topic": "artificial",
+            "keywords": [],
+            "requirements": null,
+            "max_papers": 10,
+            "status": "error",
+            "created_at": "2025-06-20T16:24:25.337355",
+            "expires_at": "2025-06-21T16:24:25.337355",
+            "error": "未找到相关论文"
+        },
+        "e7d0efa6-ad84-4f54-a7c8-feedad29c308": {
+            "topic": "最智能的具身智能机器人设计",
+            "keywords": [],
+            "requirements": null,
+            "max_papers": 10,
+            "status": "error",
+            "created_at": "2025-06-20T16:34:04.906357",
+            "expires_at": "2025-06-21T16:34:04.906357",
+            "error": "未找到相关论文。请尝试使用更具体的英文学术关键词。"
+        },
+        "b0862309-ec42-455a-84f7-37e1e17b0573": {
+            "topic": "智能机器人",
+            "keywords": [],
+            "requirements": null,
+            "max_papers": 10,
+            "status": "error",
+            "created_at": "2025-06-20T16:38:42.592591",
+            "expires_at": "2025-06-21T16:38:42.592591",
+            "papers": [
+                {
+                    "id": "2505.05753v1",
+                    "title": "Towards Embodiment Scaling Laws in Robot Locomotion",
+                    "authors": [
+                        "Bo Ai",
+                        "Liu Dai",
+                        "Nico Bohlinger",
+                        "Dichen Li",
+                        "Tongzhou Mu",
+                        "Zhanxin Wu",
+                        "K. Fay",
+                        "Henrik I. Christensen",
+                        "Jan Peters",
+                        "Hao Su"
+                    ],
+                    "summary": "Developing generalist agents that can operate across diverse tasks,\nenvironments, and physical embodiments is a grand challenge in robotics and\nartificial intelligence. In this work, we focus on the axis of embodiment and\ninvestigate embodiment scaling laws$\\unicode{x2013}$the hypothesis that\nincreasing the number of training embodiments improves generalization to unseen\nones. Using robot locomotion as a test bed, we procedurally generate a dataset\nof $\\sim$1,000 varied embodiments, spanning humanoids, quadrupeds, and\nhexapods, and train generalist policies capable of handling diverse observation\nand action spaces on random subsets. We find that increasing the number of\ntraining embodiments improves generalization to unseen ones, and scaling\nembodiments is more effective in enabling embodiment-level generalization than\nscaling data on small, fixed sets of embodiments. Notably, our best policy,\ntrained on the full dataset, zero-shot transfers to novel embodiments in the\nreal world, such as Unitree Go2 and H1. These results represent a step toward\ngeneral embodied intelligence, with potential relevance to adaptive control for\nconfigurable robots, co-design of morphology and control, and beyond.",
+                    "published": "2025-05-09",
+                    "url": "http://arxiv.org/abs/2505.05753v1",
+                    "pdf_url": "http://arxiv.org/pdf/2505.05753v1",
+                    "local_pdf": "/static/downloads/2505.05753v1.pdf"
+                },
+                {
+                    "id": "2409.01630v1",
+                    "title": "SafeEmbodAI: a Safety Framework for Mobile Robots in Embodied AI Systems",
+                    "authors": [
+                        "Wenxiao Zhang",
+                        "Xiangrui Kong",
+                        "Thomas Braunl",
+                        "Jin B. Hong"
+                    ],
+                    "summary": "Embodied AI systems, including AI-powered robots that autonomously interact\nwith the physical world, stand to be significantly advanced by Large Language\nModels (LLMs), which enable robots to better understand complex language\ncommands and perform advanced tasks with enhanced comprehension and\nadaptability, highlighting their potential to improve embodied AI capabilities.\nHowever, this advancement also introduces safety challenges, particularly in\nrobotic navigation tasks. Improper safety management can lead to failures in\ncomplex environments and make the system vulnerable to malicious command\ninjections, resulting in unsafe behaviours such as detours or collisions. To\naddress these issues, we propose \\textit{SafeEmbodAI}, a safety framework for\nintegrating mobile robots into embodied AI systems. \\textit{SafeEmbodAI}\nincorporates secure prompting, state management, and safety validation\nmechanisms to secure and assist LLMs in reasoning through multi-modal data and\nvalidating responses. We designed a metric to evaluate mission-oriented\nexploration, and evaluations in simulated environments demonstrate that our\nframework effectively mitigates threats from malicious commands and improves\nperformance in various environment settings, ensuring the safety of embodied AI\nsystems. Notably, In complex environments with mixed obstacles, our method\ndemonstrates a significant performance increase of 267\\% compared to the\nbaseline in attack scenarios, highlighting its robustness in challenging\nconditions.",
+                    "published": "2024-09-03",
+                    "url": "http://arxiv.org/abs/2409.01630v1",
+                    "pdf_url": "http://arxiv.org/pdf/2409.01630v1",
+                    "local_pdf": "/static/downloads/2409.01630v1.pdf"
+                },
+                {
+                    "id": "2405.15775v1",
+                    "title": "AI Robots and Humanoid AI: Review, Perspectives and Directions",
+                    "authors": [
+                        "Longbing Cao"
+                    ],
+                    "summary": "In the approximately century-long journey of robotics, humanoid robots made\ntheir debut around six decades ago. The rapid advancements in generative AI,\nlarge language models (LLMs), and large multimodal models (LMMs) have reignited\ninterest in humanoids, steering them towards real-time, interactive, and\nmultimodal designs and applications. This resurgence unveils boundless\nopportunities for AI robotics and novel applications, paving the way for\nautomated, real-time and humane interactions with humanoid advisers, educators,\nmedical professionals, caregivers, and receptionists. However, while current\nhumanoid robots boast human-like appearances, they have yet to embody true\nhumaneness, remaining distant from achieving human-like intelligence. In our\ncomprehensive review, we delve into the intricate landscape of AI robotics and\nAI humanoid robots in particular, exploring the challenges, perspectives and\ndirections in transitioning from human-looking to humane humanoids and\nfostering human-like robotics. This endeavour synergizes the advancements in\nLLMs, LMMs, generative AI, and human-level AI with humanoid robotics,\nomniverse, and decentralized AI, ushering in the era of AI humanoids and\nhumanoid AI.",
+                    "published": "2024-03-19",
+                    "url": "http://arxiv.org/abs/2405.15775v1",
+                    "pdf_url": "http://arxiv.org/pdf/2405.15775v1",
+                    "local_pdf": "/static/downloads/2405.15775v1.pdf"
+                },
+                {
+                    "id": "1709.08992v2",
+                    "title": "Embodied Evolution in Collective Robotics: A Review",
+                    "authors": [
+                        "Nicolas Bredeche",
+                        "Evert Haasdijk",
+                        "Abraham Prieto"
+                    ],
+                    "summary": "This paper provides an overview of evolutionary robotics techniques applied\nto on-line distributed evolution for robot collectives -- namely, embodied\nevolution. It provides a definition of embodied evolution as well as a thorough\ndescription of the underlying concepts and mechanisms. The paper also presents\na comprehensive summary of research published in the field since its inception\n(1999-2017), providing various perspectives to identify the major trends. In\nparticular, we identify a shift from considering embodied evolution as a\nparallel search method within small robot collectives (fewer than 10 robots) to\nembodied evolution as an on-line distributed learning method for designing\ncollective behaviours in swarm-like collectives. The paper concludes with a\ndiscussion of applications and open questions, providing a milestone for past\nand an inspiration for future research.",
+                    "published": "2017-09-26",
+                    "url": "http://arxiv.org/abs/1709.08992v2",
+                    "pdf_url": "http://arxiv.org/pdf/1709.08992v2",
+                    "local_pdf": "/static/downloads/1709.08992v2.pdf"
+                },
+                {
+                    "id": "2405.17846v1",
+                    "title": "Safety Control of Service Robots with LLMs and Embodied Knowledge Graphs",
+                    "authors": [
+                        "Yong Qi",
+                        "Gabriel Kyebambo",
+                        "Siyuan Xie",
+                        "Wei Shen",
+                        "Shenghui Wang",
+                        "Bitao Xie",
+                        "Bin He",
+                        "Zhipeng Wang",
+                        "Shuo Jiang"
+                    ],
+                    "summary": "Safety limitations in service robotics across various industries have raised\nsignificant concerns about the need for robust mechanisms ensuring that robots\nadhere to safe practices, thereby preventing actions that might harm humans or\ncause property damage. Despite advances, including the integration of Knowledge\nGraphs (KGs) with Large Language Models (LLMs), challenges in ensuring\nconsistent safety in autonomous robot actions persist. In this paper, we\npropose a novel integration of Large Language Models with Embodied Robotic\nControl Prompts (ERCPs) and Embodied Knowledge Graphs (EKGs) to enhance the\nsafety framework for service robots. ERCPs are designed as predefined\ninstructions that ensure LLMs generate safe and precise responses. These\nresponses are subsequently validated by EKGs, which provide a comprehensive\nknowledge base ensuring that the actions of the robot are continuously aligned\nwith safety protocols, thereby promoting safer operational practices in varied\ncontexts. Our experimental setup involved diverse real-world tasks, where\nrobots equipped with our framework demonstrated significantly higher compliance\nwith safety standards compared to traditional methods. This integration fosters\nsecure human-robot interactions and positions our methodology at the forefront\nof AI-driven safety innovations in service robotics.",
+                    "published": "2024-05-28",
+                    "url": "http://arxiv.org/abs/2405.17846v1",
+                    "pdf_url": "http://arxiv.org/pdf/2405.17846v1",
+                    "local_pdf": "/static/downloads/2405.17846v1.pdf"
+                },
+                {
+                    "id": "2503.19941v1",
+                    "title": "Body Discovery of Embodied AI",
+                    "authors": [
+                        "Zhe Sun",
+                        "Pengfei Tian",
+                        "Xiaozhu Hu",
+                        "Xiaoyu Zhao",
+                        "Huiying Li",
+                        "Zhenliang Zhang"
+                    ],
+                    "summary": "In the pursuit of realizing artificial general intelligence (AGI), the\nimportance of embodied artificial intelligence (AI) becomes increasingly\napparent. Following this trend, research integrating robots with AGI has become\nprominent. As various kinds of embodiments have been designed, adaptability to\ndiverse embodiments will become important to AGI. We introduce a new challenge,\ntermed \"Body Discovery of Embodied AI\", focusing on tasks of recognizing\nembodiments and summarizing neural signal functionality. The challenge\nencompasses the precise definition of an AI body and the intricate task of\nidentifying embodiments in dynamic environments, where conventional approaches\noften prove inadequate. To address these challenges, we apply causal inference\nmethod and evaluate it by developing a simulator tailored for testing\nalgorithms with virtual environments. Finally, we validate the efficacy of our\nalgorithms through empirical testing, demonstrating their robust performance in\nvarious scenarios based on virtual environments.",
+                    "published": "2025-03-25",
+                    "url": "http://arxiv.org/abs/2503.19941v1",
+                    "pdf_url": "http://arxiv.org/pdf/2503.19941v1",
+                    "local_pdf": "/static/downloads/2503.19941v1.pdf"
+                },
+                {
+                    "id": "2408.11537v1",
+                    "title": "A Survey of Embodied Learning for Object-Centric Robotic Manipulation",
+                    "authors": [
+                        "Ying Zheng",
+                        "Lei Yao",
+                        "Yuejiao Su",
+                        "Yi Zhang",
+                        "Yi Wang",
+                        "Sicheng Zhao",
+                        "Yiyi Zhang",
+                        "Lap-Pui Chau"
+                    ],
+                    "summary": "Embodied learning for object-centric robotic manipulation is a rapidly\ndeveloping and challenging area in embodied AI. It is crucial for advancing\nnext-generation intelligent robots and has garnered significant interest\nrecently. Unlike data-driven machine learning methods, embodied learning\nfocuses on robot learning through physical interaction with the environment and\nperceptual feedback, making it especially suitable for robotic manipulation. In\nthis paper, we provide a comprehensive survey of the latest advancements in\nthis field and categorize the existing work into three main branches: 1)\nEmbodied perceptual learning, which aims to predict object pose and affordance\nthrough various data representations; 2) Embodied policy learning, which\nfocuses on generating optimal robotic decisions using methods such as\nreinforcement learning and imitation learning; 3) Embodied task-oriented\nlearning, designed to optimize the robot's performance based on the\ncharacteristics of different tasks in object grasping and manipulation. In\naddition, we offer an overview and discussion of public datasets, evaluation\nmetrics, representative applications, current challenges, and potential future\nresearch directions. A project associated with this survey has been established\nat https://github.com/RayYoh/OCRM_survey.",
+                    "published": "2024-08-21",
+                    "url": "http://arxiv.org/abs/2408.11537v1",
+                    "pdf_url": "http://arxiv.org/pdf/2408.11537v1",
+                    "local_pdf": "/static/downloads/2408.11537v1.pdf"
+                },
+                {
+                    "id": "2404.03325v2",
+                    "title": "Embodied Neuromorphic Artificial Intelligence for Robotics: Perspectives, Challenges, and Research Development Stack",
+                    "authors": [
+                        "Rachmad Vidya Wicaksana Putra",
+                        "Alberto Marchisio",
+                        "Fakhreddine Zayer",
+                        "Jorge Dias",
+                        "Muhammad Shafique"
+                    ],
+                    "summary": "Robotic technologies have been an indispensable part for improving human\nproductivity since they have been helping humans in completing diverse,\ncomplex, and intensive tasks in a fast yet accurate and efficient way.\nTherefore, robotic technologies have been deployed in a wide range of\napplications, ranging from personal to industrial use-cases. However, current\nrobotic technologies and their computing paradigm still lack embodied\nintelligence to efficiently interact with operational environments, respond\nwith correct/expected actions, and adapt to changes in the environments. Toward\nthis, recent advances in neuromorphic computing with Spiking Neural Networks\n(SNN) have demonstrated the potential to enable the embodied intelligence for\nrobotics through bio-plausible computing paradigm that mimics how the\nbiological brain works, known as \"neuromorphic artificial intelligence (AI)\".\nHowever, the field of neuromorphic AI-based robotics is still at an early\nstage, therefore its development and deployment for solving real-world problems\nexpose new challenges in different design aspects, such as accuracy,\nadaptability, efficiency, reliability, and security. To address these\nchallenges, this paper will discuss how we can enable embodied neuromorphic AI\nfor robotic systems through our perspectives: (P1) Embodied intelligence based\non effective learning rule, training mechanism, and adaptability; (P2)\nCross-layer optimizations for energy-efficient neuromorphic computing; (P3)\nRepresentative and fair benchmarks; (P4) Low-cost reliability and safety\nenhancements; (P5) Security and privacy for neuromorphic computing; and (P6) A\nsynergistic development for energy-efficient and robust neuromorphic-based\nrobotics. Furthermore, this paper identifies research challenges and\nopportunities, as well as elaborates our vision for future research development\ntoward embodied neuromorphic AI for robotics.",
+                    "published": "2024-04-04",
+                    "url": "http://arxiv.org/abs/2404.03325v2",
+                    "pdf_url": "http://arxiv.org/pdf/2404.03325v2",
+                    "local_pdf": "/static/downloads/2404.03325v2.pdf"
+                },
+                {
+                    "id": "2301.00452v2",
+                    "title": "Human-in-the-loop Embodied Intelligence with Interactive Simulation Environment for Surgical Robot Learning",
+                    "authors": [
+                        "Yonghao Long",
+                        "Wang Wei",
+                        "Tao Huang",
+                        "Yuehao Wang",
+                        "Qi Dou"
+                    ],
+                    "summary": "Surgical robot automation has attracted increasing research interest over the\npast decade, expecting its potential to benefit surgeons, nurses and patients.\nRecently, the learning paradigm of embodied intelligence has demonstrated\npromising ability to learn good control policies for various complex tasks,\nwhere embodied AI simulators play an essential role to facilitate relevant\nresearch. However, existing open-sourced simulators for surgical robot are\nstill not sufficiently supporting human interactions through physical input\ndevices, which further limits effective investigations on how the human\ndemonstrations would affect policy learning. In this work, we study\nhuman-in-the-loop embodied intelligence with a new interactive simulation\nplatform for surgical robot learning. Specifically, we establish our platform\nbased on our previously released SurRoL simulator with several new features\nco-developed to allow high-quality human interaction via an input device. We\nshowcase the improvement of our simulation environment with the designed new\nfeatures, and validate effectiveness of incorporating human factors in embodied\nintelligence through the use of human demonstrations and reinforcement learning\nas a representative example. Promising results are obtained in terms of\nlearning efficiency. Lastly, five new surgical robot training tasks are\ndeveloped and released, with which we hope to pave the way for future research\non surgical embodied intelligence. Our learning platform is publicly released\nand will be continuously updated in the website:\nhttps://med-air.github.io/SurRoL.",
+                    "published": "2023-01-01",
+                    "url": "http://arxiv.org/abs/2301.00452v2",
+                    "pdf_url": "http://arxiv.org/pdf/2301.00452v2",
+                    "local_pdf": "/static/downloads/2301.00452v2.pdf"
+                },
+                {
+                    "id": "2312.05822v1",
+                    "title": "Toward Open-ended Embodied Tasks Solving",
+                    "authors": [
+                        "William Wei Wang",
+                        "Dongqi Han",
+                        "Xufang Luo",
+                        "Yifei Shen",
+                        "Charles Ling",
+                        "Boyu Wang",
+                        "Dongsheng Li"
+                    ],
+                    "summary": "Empowering embodied agents, such as robots, with Artificial Intelligence (AI)\nhas become increasingly important in recent years. A major challenge is task\nopen-endedness. In practice, robots often need to perform tasks with novel\ngoals that are multifaceted, dynamic, lack a definitive \"end-state\", and were\nnot encountered during training. To tackle this problem, this paper introduces\n\\textit{Diffusion for Open-ended Goals} (DOG), a novel framework designed to\nenable embodied AI to plan and act flexibly and dynamically for open-ended task\ngoals. DOG synergizes the generative prowess of diffusion models with\nstate-of-the-art, training-free guidance techniques to adaptively perform\nonline planning and control. Our evaluations demonstrate that DOG can handle\nvarious kinds of novel task goals not seen during training, in both maze\nnavigation and robot control problems. Our work sheds light on enhancing\nembodied AI's adaptability and competency in tackling open-ended goals.",
+                    "published": "2023-12-10",
+                    "url": "http://arxiv.org/abs/2312.05822v1",
+                    "pdf_url": "http://arxiv.org/pdf/2312.05822v1",
+                    "local_pdf": "/static/downloads/2312.05822v1.pdf"
+                }
+            ],
+            "error": "'latin-1' codec can't encode characters in position 0-5: ordinal not in range(256)"
+        },
+        "deabe154-d2f5-43db-bb6e-81ab45353bc6": {
+            "topic": "智能机器人",
+            "keywords": [],
+            "requirements": null,
+            "max_papers": 10,
+            "status": "completed",
+            "created_at": "2025-06-20T16:48:25.304657",
+            "expires_at": "2025-06-21T16:48:25.304657",
+            "papers": [
+                {
+                    "id": "2505.05753v1",
+                    "title": "Towards Embodiment Scaling Laws in Robot Locomotion",
+                    "authors": [
+                        "Bo Ai",
+                        "Liu Dai",
+                        "Nico Bohlinger",
+                        "Dichen Li",
+                        "Tongzhou Mu",
+                        "Zhanxin Wu",
+                        "K. Fay",
+                        "Henrik I. Christensen",
+                        "Jan Peters",
+                        "Hao Su"
+                    ],
+                    "summary": "Developing generalist agents that can operate across diverse tasks,\nenvironments, and physical embodiments is a grand challenge in robotics and\nartificial intelligence. In this work, we focus on the axis of embodiment and\ninvestigate embodiment scaling laws$\\unicode{x2013}$the hypothesis that\nincreasing the number of training embodiments improves generalization to unseen\nones. Using robot locomotion as a test bed, we procedurally generate a dataset\nof $\\sim$1,000 varied embodiments, spanning humanoids, quadrupeds, and\nhexapods, and train generalist policies capable of handling diverse observation\nand action spaces on random subsets. We find that increasing the number of\ntraining embodiments improves generalization to unseen ones, and scaling\nembodiments is more effective in enabling embodiment-level generalization than\nscaling data on small, fixed sets of embodiments. Notably, our best policy,\ntrained on the full dataset, zero-shot transfers to novel embodiments in the\nreal world, such as Unitree Go2 and H1. These results represent a step toward\ngeneral embodied intelligence, with potential relevance to adaptive control for\nconfigurable robots, co-design of morphology and control, and beyond.",
+                    "published": "2025-05-09",
+                    "url": "http://arxiv.org/abs/2505.05753v1",
+                    "pdf_url": "http://arxiv.org/pdf/2505.05753v1",
+                    "local_pdf": "/static/downloads/2505.05753v1.pdf"
+                },
+                {
+                    "id": "2409.01630v1",
+                    "title": "SafeEmbodAI: a Safety Framework for Mobile Robots in Embodied AI Systems",
+                    "authors": [
+                        "Wenxiao Zhang",
+                        "Xiangrui Kong",
+                        "Thomas Braunl",
+                        "Jin B. Hong"
+                    ],
+                    "summary": "Embodied AI systems, including AI-powered robots that autonomously interact\nwith the physical world, stand to be significantly advanced by Large Language\nModels (LLMs), which enable robots to better understand complex language\ncommands and perform advanced tasks with enhanced comprehension and\nadaptability, highlighting their potential to improve embodied AI capabilities.\nHowever, this advancement also introduces safety challenges, particularly in\nrobotic navigation tasks. Improper safety management can lead to failures in\ncomplex environments and make the system vulnerable to malicious command\ninjections, resulting in unsafe behaviours such as detours or collisions. To\naddress these issues, we propose \\textit{SafeEmbodAI}, a safety framework for\nintegrating mobile robots into embodied AI systems. \\textit{SafeEmbodAI}\nincorporates secure prompting, state management, and safety validation\nmechanisms to secure and assist LLMs in reasoning through multi-modal data and\nvalidating responses. We designed a metric to evaluate mission-oriented\nexploration, and evaluations in simulated environments demonstrate that our\nframework effectively mitigates threats from malicious commands and improves\nperformance in various environment settings, ensuring the safety of embodied AI\nsystems. Notably, In complex environments with mixed obstacles, our method\ndemonstrates a significant performance increase of 267\\% compared to the\nbaseline in attack scenarios, highlighting its robustness in challenging\nconditions.",
+                    "published": "2024-09-03",
+                    "url": "http://arxiv.org/abs/2409.01630v1",
+                    "pdf_url": "http://arxiv.org/pdf/2409.01630v1",
+                    "local_pdf": "/static/downloads/2409.01630v1.pdf"
+                },
+                {
+                    "id": "2405.15775v1",
+                    "title": "AI Robots and Humanoid AI: Review, Perspectives and Directions",
+                    "authors": [
+                        "Longbing Cao"
+                    ],
+                    "summary": "In the approximately century-long journey of robotics, humanoid robots made\ntheir debut around six decades ago. The rapid advancements in generative AI,\nlarge language models (LLMs), and large multimodal models (LMMs) have reignited\ninterest in humanoids, steering them towards real-time, interactive, and\nmultimodal designs and applications. This resurgence unveils boundless\nopportunities for AI robotics and novel applications, paving the way for\nautomated, real-time and humane interactions with humanoid advisers, educators,\nmedical professionals, caregivers, and receptionists. However, while current\nhumanoid robots boast human-like appearances, they have yet to embody true\nhumaneness, remaining distant from achieving human-like intelligence. In our\ncomprehensive review, we delve into the intricate landscape of AI robotics and\nAI humanoid robots in particular, exploring the challenges, perspectives and\ndirections in transitioning from human-looking to humane humanoids and\nfostering human-like robotics. This endeavour synergizes the advancements in\nLLMs, LMMs, generative AI, and human-level AI with humanoid robotics,\nomniverse, and decentralized AI, ushering in the era of AI humanoids and\nhumanoid AI.",
+                    "published": "2024-03-19",
+                    "url": "http://arxiv.org/abs/2405.15775v1",
+                    "pdf_url": "http://arxiv.org/pdf/2405.15775v1",
+                    "local_pdf": "/static/downloads/2405.15775v1.pdf"
+                },
+                {
+                    "id": "1709.08992v2",
+                    "title": "Embodied Evolution in Collective Robotics: A Review",
+                    "authors": [
+                        "Nicolas Bredeche",
+                        "Evert Haasdijk",
+                        "Abraham Prieto"
+                    ],
+                    "summary": "This paper provides an overview of evolutionary robotics techniques applied\nto on-line distributed evolution for robot collectives -- namely, embodied\nevolution. It provides a definition of embodied evolution as well as a thorough\ndescription of the underlying concepts and mechanisms. The paper also presents\na comprehensive summary of research published in the field since its inception\n(1999-2017), providing various perspectives to identify the major trends. In\nparticular, we identify a shift from considering embodied evolution as a\nparallel search method within small robot collectives (fewer than 10 robots) to\nembodied evolution as an on-line distributed learning method for designing\ncollective behaviours in swarm-like collectives. The paper concludes with a\ndiscussion of applications and open questions, providing a milestone for past\nand an inspiration for future research.",
+                    "published": "2017-09-26",
+                    "url": "http://arxiv.org/abs/1709.08992v2",
+                    "pdf_url": "http://arxiv.org/pdf/1709.08992v2",
+                    "local_pdf": "/static/downloads/1709.08992v2.pdf"
+                },
+                {
+                    "id": "2405.17846v1",
+                    "title": "Safety Control of Service Robots with LLMs and Embodied Knowledge Graphs",
+                    "authors": [
+                        "Yong Qi",
+                        "Gabriel Kyebambo",
+                        "Siyuan Xie",
+                        "Wei Shen",
+                        "Shenghui Wang",
+                        "Bitao Xie",
+                        "Bin He",
+                        "Zhipeng Wang",
+                        "Shuo Jiang"
+                    ],
+                    "summary": "Safety limitations in service robotics across various industries have raised\nsignificant concerns about the need for robust mechanisms ensuring that robots\nadhere to safe practices, thereby preventing actions that might harm humans or\ncause property damage. Despite advances, including the integration of Knowledge\nGraphs (KGs) with Large Language Models (LLMs), challenges in ensuring\nconsistent safety in autonomous robot actions persist. In this paper, we\npropose a novel integration of Large Language Models with Embodied Robotic\nControl Prompts (ERCPs) and Embodied Knowledge Graphs (EKGs) to enhance the\nsafety framework for service robots. ERCPs are designed as predefined\ninstructions that ensure LLMs generate safe and precise responses. These\nresponses are subsequently validated by EKGs, which provide a comprehensive\nknowledge base ensuring that the actions of the robot are continuously aligned\nwith safety protocols, thereby promoting safer operational practices in varied\ncontexts. Our experimental setup involved diverse real-world tasks, where\nrobots equipped with our framework demonstrated significantly higher compliance\nwith safety standards compared to traditional methods. This integration fosters\nsecure human-robot interactions and positions our methodology at the forefront\nof AI-driven safety innovations in service robotics.",
+                    "published": "2024-05-28",
+                    "url": "http://arxiv.org/abs/2405.17846v1",
+                    "pdf_url": "http://arxiv.org/pdf/2405.17846v1",
+                    "local_pdf": "/static/downloads/2405.17846v1.pdf"
+                },
+                {
+                    "id": "2503.19941v1",
+                    "title": "Body Discovery of Embodied AI",
+                    "authors": [
+                        "Zhe Sun",
+                        "Pengfei Tian",
+                        "Xiaozhu Hu",
+                        "Xiaoyu Zhao",
+                        "Huiying Li",
+                        "Zhenliang Zhang"
+                    ],
+                    "summary": "In the pursuit of realizing artificial general intelligence (AGI), the\nimportance of embodied artificial intelligence (AI) becomes increasingly\napparent. Following this trend, research integrating robots with AGI has become\nprominent. As various kinds of embodiments have been designed, adaptability to\ndiverse embodiments will become important to AGI. We introduce a new challenge,\ntermed \"Body Discovery of Embodied AI\", focusing on tasks of recognizing\nembodiments and summarizing neural signal functionality. The challenge\nencompasses the precise definition of an AI body and the intricate task of\nidentifying embodiments in dynamic environments, where conventional approaches\noften prove inadequate. To address these challenges, we apply causal inference\nmethod and evaluate it by developing a simulator tailored for testing\nalgorithms with virtual environments. Finally, we validate the efficacy of our\nalgorithms through empirical testing, demonstrating their robust performance in\nvarious scenarios based on virtual environments.",
+                    "published": "2025-03-25",
+                    "url": "http://arxiv.org/abs/2503.19941v1",
+                    "pdf_url": "http://arxiv.org/pdf/2503.19941v1",
+                    "local_pdf": "/static/downloads/2503.19941v1.pdf"
+                },
+                {
+                    "id": "2408.11537v1",
+                    "title": "A Survey of Embodied Learning for Object-Centric Robotic Manipulation",
+                    "authors": [
+                        "Ying Zheng",
+                        "Lei Yao",
+                        "Yuejiao Su",
+                        "Yi Zhang",
+                        "Yi Wang",
+                        "Sicheng Zhao",
+                        "Yiyi Zhang",
+                        "Lap-Pui Chau"
+                    ],
+                    "summary": "Embodied learning for object-centric robotic manipulation is a rapidly\ndeveloping and challenging area in embodied AI. It is crucial for advancing\nnext-generation intelligent robots and has garnered significant interest\nrecently. Unlike data-driven machine learning methods, embodied learning\nfocuses on robot learning through physical interaction with the environment and\nperceptual feedback, making it especially suitable for robotic manipulation. In\nthis paper, we provide a comprehensive survey of the latest advancements in\nthis field and categorize the existing work into three main branches: 1)\nEmbodied perceptual learning, which aims to predict object pose and affordance\nthrough various data representations; 2) Embodied policy learning, which\nfocuses on generating optimal robotic decisions using methods such as\nreinforcement learning and imitation learning; 3) Embodied task-oriented\nlearning, designed to optimize the robot's performance based on the\ncharacteristics of different tasks in object grasping and manipulation. In\naddition, we offer an overview and discussion of public datasets, evaluation\nmetrics, representative applications, current challenges, and potential future\nresearch directions. A project associated with this survey has been established\nat https://github.com/RayYoh/OCRM_survey.",
+                    "published": "2024-08-21",
+                    "url": "http://arxiv.org/abs/2408.11537v1",
+                    "pdf_url": "http://arxiv.org/pdf/2408.11537v1",
+                    "local_pdf": "/static/downloads/2408.11537v1.pdf"
+                },
+                {
+                    "id": "2404.03325v2",
+                    "title": "Embodied Neuromorphic Artificial Intelligence for Robotics: Perspectives, Challenges, and Research Development Stack",
+                    "authors": [
+                        "Rachmad Vidya Wicaksana Putra",
+                        "Alberto Marchisio",
+                        "Fakhreddine Zayer",
+                        "Jorge Dias",
+                        "Muhammad Shafique"
+                    ],
+                    "summary": "Robotic technologies have been an indispensable part for improving human\nproductivity since they have been helping humans in completing diverse,\ncomplex, and intensive tasks in a fast yet accurate and efficient way.\nTherefore, robotic technologies have been deployed in a wide range of\napplications, ranging from personal to industrial use-cases. However, current\nrobotic technologies and their computing paradigm still lack embodied\nintelligence to efficiently interact with operational environments, respond\nwith correct/expected actions, and adapt to changes in the environments. Toward\nthis, recent advances in neuromorphic computing with Spiking Neural Networks\n(SNN) have demonstrated the potential to enable the embodied intelligence for\nrobotics through bio-plausible computing paradigm that mimics how the\nbiological brain works, known as \"neuromorphic artificial intelligence (AI)\".\nHowever, the field of neuromorphic AI-based robotics is still at an early\nstage, therefore its development and deployment for solving real-world problems\nexpose new challenges in different design aspects, such as accuracy,\nadaptability, efficiency, reliability, and security. To address these\nchallenges, this paper will discuss how we can enable embodied neuromorphic AI\nfor robotic systems through our perspectives: (P1) Embodied intelligence based\non effective learning rule, training mechanism, and adaptability; (P2)\nCross-layer optimizations for energy-efficient neuromorphic computing; (P3)\nRepresentative and fair benchmarks; (P4) Low-cost reliability and safety\nenhancements; (P5) Security and privacy for neuromorphic computing; and (P6) A\nsynergistic development for energy-efficient and robust neuromorphic-based\nrobotics. Furthermore, this paper identifies research challenges and\nopportunities, as well as elaborates our vision for future research development\ntoward embodied neuromorphic AI for robotics.",
+                    "published": "2024-04-04",
+                    "url": "http://arxiv.org/abs/2404.03325v2",
+                    "pdf_url": "http://arxiv.org/pdf/2404.03325v2",
+                    "local_pdf": "/static/downloads/2404.03325v2.pdf"
+                },
+                {
+                    "id": "2301.00452v2",
+                    "title": "Human-in-the-loop Embodied Intelligence with Interactive Simulation Environment for Surgical Robot Learning",
+                    "authors": [
+                        "Yonghao Long",
+                        "Wang Wei",
+                        "Tao Huang",
+                        "Yuehao Wang",
+                        "Qi Dou"
+                    ],
+                    "summary": "Surgical robot automation has attracted increasing research interest over the\npast decade, expecting its potential to benefit surgeons, nurses and patients.\nRecently, the learning paradigm of embodied intelligence has demonstrated\npromising ability to learn good control policies for various complex tasks,\nwhere embodied AI simulators play an essential role to facilitate relevant\nresearch. However, existing open-sourced simulators for surgical robot are\nstill not sufficiently supporting human interactions through physical input\ndevices, which further limits effective investigations on how the human\ndemonstrations would affect policy learning. In this work, we study\nhuman-in-the-loop embodied intelligence with a new interactive simulation\nplatform for surgical robot learning. Specifically, we establish our platform\nbased on our previously released SurRoL simulator with several new features\nco-developed to allow high-quality human interaction via an input device. We\nshowcase the improvement of our simulation environment with the designed new\nfeatures, and validate effectiveness of incorporating human factors in embodied\nintelligence through the use of human demonstrations and reinforcement learning\nas a representative example. Promising results are obtained in terms of\nlearning efficiency. Lastly, five new surgical robot training tasks are\ndeveloped and released, with which we hope to pave the way for future research\non surgical embodied intelligence. Our learning platform is publicly released\nand will be continuously updated in the website:\nhttps://med-air.github.io/SurRoL.",
+                    "published": "2023-01-01",
+                    "url": "http://arxiv.org/abs/2301.00452v2",
+                    "pdf_url": "http://arxiv.org/pdf/2301.00452v2",
+                    "local_pdf": "/static/downloads/2301.00452v2.pdf"
+                },
+                {
+                    "id": "2312.05822v1",
+                    "title": "Toward Open-ended Embodied Tasks Solving",
+                    "authors": [
+                        "William Wei Wang",
+                        "Dongqi Han",
+                        "Xufang Luo",
+                        "Yifei Shen",
+                        "Charles Ling",
+                        "Boyu Wang",
+                        "Dongsheng Li"
+                    ],
+                    "summary": "Empowering embodied agents, such as robots, with Artificial Intelligence (AI)\nhas become increasingly important in recent years. A major challenge is task\nopen-endedness. In practice, robots often need to perform tasks with novel\ngoals that are multifaceted, dynamic, lack a definitive \"end-state\", and were\nnot encountered during training. To tackle this problem, this paper introduces\n\\textit{Diffusion for Open-ended Goals} (DOG), a novel framework designed to\nenable embodied AI to plan and act flexibly and dynamically for open-ended task\ngoals. DOG synergizes the generative prowess of diffusion models with\nstate-of-the-art, training-free guidance techniques to adaptively perform\nonline planning and control. Our evaluations demonstrate that DOG can handle\nvarious kinds of novel task goals not seen during training, in both maze\nnavigation and robot control problems. Our work sheds light on enhancing\nembodied AI's adaptability and competency in tackling open-ended goals.",
+                    "published": "2023-12-10",
+                    "url": "http://arxiv.org/abs/2312.05822v1",
+                    "pdf_url": "http://arxiv.org/pdf/2312.05822v1",
+                    "local_pdf": "/static/downloads/2312.05822v1.pdf"
+                }
+            ],
+            "tech_proposal": "# 智能机器人 技术方案\n\n## 1. 项目概述\n\n基于搜集到的论文资料，我们可以构建一个关于智能机器人的技术方案。这将整合最新的研究成果和技术发展趋势。\n\n## 2. 技术架构\n\n*此部分应包含系统架构图和组件设计*\n\n## 3. 关键技术\n\n根据检索到的论文，以下是一些可能的关键技术：\n\n### 3.1 Towards Embodiment Scaling Laws in Robot Locomotion\n\n- 发表于: 2025-05-09\n- 作者: Bo Ai, Liu Dai, Nico Bohlinger 等人\n- 主要技术点: *需进一步分析*\n\n### 3.2 SafeEmbodAI\n\n- 发表于: 2024-09-03\n- 作者: Wenxiao Zhang, Xiangrui Kong, Thomas Braunl 等人\n- 主要技术点: *需进一步分析*\n\n### 3.3 AI Robots and Humanoid AI\n\n- 发表于: 2024-03-19\n- 作者: Longbing Cao\n- 主要技术点: *需进一步分析*\n\n### 3.4 Embodied Evolution in Collective Robotics\n\n- 发表于: 2017-09-26\n- 作者: Nicolas Bredeche, Evert Haasdijk, Abraham Prieto\n- 主要技术点: *需进一步分析*\n\n### 3.5 Safety Control of Service Robots with LLMs and Embodied Knowledge Graphs\n\n- 发表于: 2024-05-28\n- 作者: Yong Qi, Gabriel Kyebambo, Siyuan Xie 等人\n- 主要技术点: *需进一步分析*\n\n\n## 4. 实施路径\n\n*此部分需详细规划项目实施步骤*\n\n## 5. 资源需求\n\n*此部分需列出人力、硬件和软件资源*\n\n## 6. 风险评估\n\n*此部分需评估可能的技术挑战和应对策略*\n\n## 7. 项目时间线\n\n*此部分需提供各阶段时间估计*\n\n## 8. 参考文献\n\n[1] Towards Embodiment Scaling Laws in Robot Locomotion. Bo Ai, Liu Dai, Nico Bohlinger, Dichen Li, Tongzhou Mu, Zhanxin Wu, K. Fay, Henrik I. Christensen, Jan Peters, Hao Su. 2025-05-09.\n[2] SafeEmbodAI: a Safety Framework for Mobile Robots in Embodied AI Systems. Wenxiao Zhang, Xiangrui Kong, Thomas Braunl, Jin B. Hong. 2024-09-03.\n[3] AI Robots and Humanoid AI: Review, Perspectives and Directions. Longbing Cao. 2024-03-19.\n[4] Embodied Evolution in Collective Robotics: A Review. Nicolas Bredeche, Evert Haasdijk, Abraham Prieto. 2017-09-26.\n[5] Safety Control of Service Robots with LLMs and Embodied Knowledge Graphs. Yong Qi, Gabriel Kyebambo, Siyuan Xie, Wei Shen, Shenghui Wang, Bitao Xie, Bin He, Zhipeng Wang, Shuo Jiang. 2024-05-28.\n[6] Body Discovery of Embodied AI. Zhe Sun, Pengfei Tian, Xiaozhu Hu, Xiaoyu Zhao, Huiying Li, Zhenliang Zhang. 2025-03-25.\n[7] A Survey of Embodied Learning for Object-Centric Robotic Manipulation. Ying Zheng, Lei Yao, Yuejiao Su, Yi Zhang, Yi Wang, Sicheng Zhao, Yiyi Zhang, Lap-Pui Chau. 2024-08-21.\n[8] Embodied Neuromorphic Artificial Intelligence for Robotics: Perspectives, Challenges, and Research Development Stack. Rachmad Vidya Wicaksana Putra, Alberto Marchisio, Fakhreddine Zayer, Jorge Dias, Muhammad Shafique. 2024-04-04.\n[9] Human-in-the-loop Embodied Intelligence with Interactive Simulation Environment for Surgical Robot Learning. Yonghao Long, Wang Wei, Tao Huang, Yuehao Wang, Qi Dou. 2023-01-01.\n[10] Toward Open-ended Embodied Tasks Solving. William Wei Wang, Dongqi Han, Xufang Luo, Yifei Shen, Charles Ling, Boyu Wang, Dongsheng Li. 2023-12-10.\n",
+            "note": "由于API调用错误，生成了简化版技术方案"
+        },
+        "6e85b414-2cfa-48b9-8a55-43eea571710d": {
+            "topic": "大型语言模型在医疗诊断中的应用",
+            "keywords": [],
+            "requirements": null,
+            "max_papers": 10,
+            "status": "completed",
+            "created_at": "2025-06-20T20:17:06.543085",
+            "expires_at": "2025-06-21T20:17:06.543085",
+            "papers": [
+                {
+                    "id": "2311.00842v1",
+                    "title": "healthAIChain: Improving security and safety using Blockchain Technology applications in AI-based healthcare systems",
+                    "authors": [
+                        "Naresh Kshetri",
+                        "James Hutson",
+                        "Revathy G"
+                    ],
+                    "summary": "Blockchain as a digital ledger for keeping records of digital transactions\nand other information, it is secure and decentralized technology. The globally\ngrowing number of digital population every day possesses a significant threat\nto online data including the medical and patients data. After bitcoin,\nblockchain technology has emerged into a general-purpose technology with\napplications in medical industries and healthcare. Blockchain can promote\nhighly configurable openness while retaining the highest security standards for\ncritical data of medical patients. Referred to as distributed record keeping\nfor healthcare systems which makes digital assets unalterable and transparent\nvia a cryptographic hash and decentralized network. The study delves into the\nsecurity and safety improvement associated with implementing blockchain in\nAI-based healthcare systems. Blockchain-enabled AI tackles the existing issues\nrelated to security, performance efficiencies, and safety in healthcare\nsystems. We have also examined the Artificial Intelligence in healthcare and\nmedical industry, potential areas, open questions concerning the blockchain in\nhealthcare systems. Finally, the article proposed an AI-based healthcare\nblockchain model (healthAIChain) to improve patients data and security.",
+                    "published": "2023-11-01",
+                    "url": "http://arxiv.org/abs/2311.00842v1",
+                    "pdf_url": "http://arxiv.org/pdf/2311.00842v1",
+                    "local_pdf": "/static/downloads/2311.00842v1.pdf"
+                },
+                {
+                    "id": "2502.16732v2",
+                    "title": "DeepSeek reshaping healthcare in China's tertiary hospitals",
+                    "authors": [
+                        "Jishizhan Chen",
+                        "Qingzeng Zhang"
+                    ],
+                    "summary": "The rapid integration of artificial intelligence (AI) into healthcare is\ntransforming clinical decision-making and hospital operations. DeepSeek has\nemerged as a leading AI system, widely deployed across China's tertiary\nhospitals since January 2025. Initially implemented in Shanghai's major medical\ninstitutions, it has since expanded nationwide, enhancing diagnostic accuracy,\nstreamlining workflows, and improving patient management. AI-powered pathology,\nimaging analysis, and clinical decision support systems have demonstrated\nsignificant potential in optimizing medical processes and reducing the\ncognitive burden on healthcare professionals. However, the widespread adoption\nof AI in healthcare raises critical regulatory and ethical challenges,\nparticularly regarding accountability in AI-assisted diagnosis and the risk of\nautomation bias. The absence of a well-defined liability framework underscores\nthe need for policies that ensure AI functions as an assistive tool rather than\nan autonomous decision-maker. With continued technological advancements, AI is\nexpected to integrate multimodal data sources, such as genomics and radiomics,\npaving the way for precision medicine and personalized treatment strategies.\nThe future of AI in healthcare depends on the development of transparent\nregulatory structures, industry collaboration, and adaptive governance\nframeworks that balance innovation with responsibility, ensuring equitable and\neffective AI-driven medical services.",
+                    "published": "2025-02-23",
+                    "url": "http://arxiv.org/abs/2502.16732v2",
+                    "pdf_url": "http://arxiv.org/pdf/2502.16732v2",
+                    "local_pdf": "/static/downloads/2502.16732v2.pdf"
+                },
+                {
+                    "id": "2308.02448v1",
+                    "title": "From Military to Healthcare: Adopting and Expanding Ethical Principles for Generative Artificial Intelligence",
+                    "authors": [
+                        "David Oniani",
+                        "Jordan Hilsman",
+                        "Yifan Peng",
+                        "COL",
+                        "Ronald K. Poropatich",
+                        "COL Jeremy C. Pamplin",
+                        "LTC Gary L. Legault",
+                        "Yanshan Wang"
+                    ],
+                    "summary": "In 2020, the U.S. Department of Defense officially disclosed a set of ethical\nprinciples to guide the use of Artificial Intelligence (AI) technologies on\nfuture battlefields. Despite stark differences, there are core similarities\nbetween the military and medical service. Warriors on battlefields often face\nlife-altering circumstances that require quick decision-making. Medical\nproviders experience similar challenges in a rapidly changing healthcare\nenvironment, such as in the emergency department or during surgery treating a\nlife-threatening condition. Generative AI, an emerging technology designed to\nefficiently generate valuable information, holds great promise. As computing\npower becomes more accessible and the abundance of health data, such as\nelectronic health records, electrocardiograms, and medical images, increases,\nit is inevitable that healthcare will be revolutionized by this technology.\nRecently, generative AI has captivated the research community, leading to\ndebates about its application in healthcare, mainly due to concerns about\ntransparency and related issues. Meanwhile, concerns about the potential\nexacerbation of health disparities due to modeling biases have raised notable\nethical concerns regarding the use of this technology in healthcare. However,\nthe ethical principles for generative AI in healthcare have been understudied,\nand decision-makers often fail to consider the significance of generative AI.\nIn this paper, we propose GREAT PLEA ethical principles, encompassing\ngovernance, reliability, equity, accountability, traceability, privacy,\nlawfulness, empathy, and autonomy, for generative AI in healthcare. We aim to\nproactively address the ethical dilemmas and challenges posed by the\nintegration of generative AI in healthcare.",
+                    "published": "2023-08-04",
+                    "url": "http://arxiv.org/abs/2308.02448v1",
+                    "pdf_url": "http://arxiv.org/pdf/2308.02448v1",
+                    "local_pdf": "/static/downloads/2308.02448v1.pdf"
+                },
+                {
+                    "id": "2406.06627v1",
+                    "title": "Rapid Review of Generative AI in Smart Medical Applications",
+                    "authors": [
+                        "Yuan Sun",
+                        "Jorge Ortiz"
+                    ],
+                    "summary": "With the continuous advancement of technology, artificial intelligence has\nsignificantly impacted various fields, particularly healthcare. Generative\nmodels, a key AI technology, have revolutionized medical image generation, data\nanalysis, and diagnosis. This article explores their application in intelligent\nmedical devices. Generative models enhance diagnostic speed and accuracy,\nimproving medical service quality and efficiency while reducing equipment\ncosts. These models show great promise in medical image generation, data\nanalysis, and diagnosis. Additionally, integrating generative models with IoT\ntechnology facilitates real-time data analysis and predictions, offering\nsmarter healthcare services and aiding in telemedicine. Challenges include\ncomputational demands, ethical concerns, and scenario-specific limitations.",
+                    "published": "2024-06-08",
+                    "url": "http://arxiv.org/abs/2406.06627v1",
+                    "pdf_url": "http://arxiv.org/pdf/2406.06627v1",
+                    "local_pdf": "/static/downloads/2406.06627v1.pdf"
+                },
+                {
+                    "id": "2101.04794v1",
+                    "title": "The Medical Authority of AI: A Study of AI-enabled Consumer-facing Health Technology",
+                    "authors": [
+                        "Yue You",
+                        "Yubo Kou",
+                        "Xianghua Ding",
+                        "Xinning Gui"
+                    ],
+                    "summary": "Recently, consumer-facing health technologies such as Artificial Intelligence\n(AI)-based symptom checkers (AISCs) have sprung up in everyday healthcare\npractice. AISCs solicit symptom information from users and provide medical\nsuggestions and possible diagnoses, a responsibility that people usually\nentrust with real-person authorities such as physicians and expert patients.\nThus, the advent of AISCs begs a question of whether and how they transform the\nnotion of medical authority in everyday healthcare practice. To answer this\nquestion, we conducted an interview study with thirty AISC users. We found that\nusers assess the medical authority of AISCs using various factors including\nautomated decisions and interaction design patterns of AISC apps, associations\nwith established medical authorities like hospitals, and comparisons with other\nhealth technologies. We reveal how AISCs are used in healthcare delivery,\ndiscuss how AI transforms conventional understandings of medical authority, and\nderive implications for designing AI-enabled health technology.",
+                    "published": "2021-01-12",
+                    "url": "http://arxiv.org/abs/2101.04794v1",
+                    "pdf_url": "http://arxiv.org/pdf/2101.04794v1",
+                    "local_pdf": "/static/downloads/2101.04794v1.pdf"
+                },
+                {
+                    "id": "2206.04793v1",
+                    "title": "Securing AI-based Healthcare Systems using Blockchain Technology: A State-of-the-Art Systematic Literature Review and Future Research Directions",
+                    "authors": [
+                        "Rucha Shinde",
+                        "Shruti Patil",
+                        "Ketan Kotecha",
+                        "Vidyasagar Potdar",
+                        "Ganeshsree Selvachandran",
+                        "Ajith Abraham"
+                    ],
+                    "summary": "Healthcare systems are increasingly incorporating Artificial Intelligence\ninto their systems, but it is not a solution for all difficulties. AI's\nextraordinary potential is being held back by challenges such as a lack of\nmedical datasets for training AI models, adversarial attacks, and a lack of\ntrust due to its black box working style. We explored how blockchain technology\ncan improve the reliability and trustworthiness of AI-based healthcare. This\npaper has conducted a Systematic Literature Review to explore the\nstate-of-the-art research studies conducted in healthcare applications\ndeveloped with different AI techniques and Blockchain Technology. This\nsystematic literature review proceeds with three different paths as natural\nlanguage processing-based healthcare systems, computer vision-based healthcare\nsystems and acoustic AI-based healthcare systems. We found that 1) Defence\ntechniques for adversarial attacks on AI are available for specific kind of\nattacks and even adversarial training is AI based technique which in further\nprone to different attacks. 2) Blockchain can address security and privacy\nissues in healthcare fraternity. 3) Medical data verification and user\nprovenance can be enabled with Blockchain. 4) Blockchain can protect\ndistributed learning on heterogeneous medical data. 5) The issues like single\npoint of failure, non-transparency in healthcare systems can be resolved with\nBlockchain. Nevertheless, it has been identified that research is at the\ninitial stage. As a result, we have synthesized a conceptual framework using\nBlockchain Technology for AI-based healthcare applications that considers the\nneeds of each NLP, Computer Vision, and Acoustic AI application. A global\nsolution for all sort of adversarial attacks on AI based healthcare. However,\nthis technique has significant limits and challenges that need to be addressed\nin future studies.",
+                    "published": "2022-05-30",
+                    "url": "http://arxiv.org/abs/2206.04793v1",
+                    "pdf_url": "http://arxiv.org/pdf/2206.04793v1",
+                    "local_pdf": "/static/downloads/2206.04793v1.pdf"
+                },
+                {
+                    "id": "2109.02866v1",
+                    "title": "Readying Medical Students for Medical AI: The Need to Embed AI Ethics Education",
+                    "authors": [
+                        "Thomas P Quinn",
+                        "Simon Coghlan"
+                    ],
+                    "summary": "Medical students will almost inevitably encounter powerful medical AI systems\nearly in their careers. Yet, contemporary medical education does not adequately\nequip students with the basic clinical proficiency in medical AI needed to use\nthese tools safely and effectively. Education reform is urgently needed, but\nnot easily implemented, largely due to an already jam-packed medical curricula.\nIn this article, we propose an education reform framework as an effective and\nefficient solution, which we call the Embedded AI Ethics Education Framework.\nUnlike other calls for education reform to accommodate AI teaching that are\nmore radical in scope, our framework is modest and incremental. It leverages\nexisting bioethics or medical ethics curricula to develop and deliver content\non the ethical issues associated with medical AI, especially the harms of\ntechnology misuse, disuse, and abuse that affect the risk-benefit analyses at\nthe heart of healthcare. In doing so, the framework provides a simple tool for\ngoing beyond the \"What?\" and the \"Why?\" of medical AI ethics education, to\nanswer the \"How?\", giving universities, course directors, and/or professors a\nbroad road-map for equipping their students with the necessary clinical\nproficiency in medical AI.",
+                    "published": "2021-09-07",
+                    "url": "http://arxiv.org/abs/2109.02866v1",
+                    "pdf_url": "http://arxiv.org/pdf/2109.02866v1",
+                    "local_pdf": "/static/downloads/2109.02866v1.pdf"
+                },
+                {
+                    "id": "2501.02169v1",
+                    "title": "The Integration of Blockchain and Artificial Intelligence for Secure Healthcare Systems",
+                    "authors": [
+                        "Umar Safdar",
+                        "Simon Gabrael"
+                    ],
+                    "summary": "Verisign reported a 125 percent increase in data breaches within the\nhealthcare sector in the United States during 2022, with 18.2 million patient\nrecords being impacted. Growing healthcare data volumes and diversification\nmean that medical information is becoming more valuable. Many Health Centers\nuse various technologies to ease the classification, storage, and exchange of\nbig data. This use can also make the health data of the users at risk and\nvulnerable. AI and blockchain are among the leading technologies at hand. With\nAI, data-driven operations and big data efficiency have been improved with\nrespect to traditional techniques. Due to its potential to bring about\nimprovements in health services and lower medical costs, this AI technology is\nregularly used in healthcare. Blockchain helps protect transactions on sharing\ninformation and private privacy as long as the exchange of knowledge is that of\nthe standard. The objective of this analysis is to investigate the research and\nunique contributions since 2008 regarding blockchain-integrated AI and\nhealthcare systems. The work sheds light on applied AI-based healthcare schemes\nwith machine, ballistic, and acrylic learning and disparate blockchain\nstructures. The use of technology in order to ensure patient data security and\nmanage medical information effectively in healthcare settings offers a highly\nsuccessful position for both healthcare providers and patients. From 2018 to\n2021, the best year was 2021 to grow, enhancing everything to examine the\ndownload of the device and the counting of Google Academies, for which the\njoining perspective was borrowed; local research experts were asked, identified\narticles in recent years, and read reviews of large research grants.",
+                    "published": "2025-01-04",
+                    "url": "http://arxiv.org/abs/2501.02169v1",
+                    "pdf_url": "http://arxiv.org/pdf/2501.02169v1",
+                    "local_pdf": "/static/downloads/2501.02169v1.pdf"
+                },
+                {
+                    "id": "2401.15605v1",
+                    "title": "AI as a Medical Ally: Evaluating ChatGPT's Usage and Impact in Indian Healthcare",
+                    "authors": [
+                        "Aryaman Raina",
+                        "Prateek Mishra",
+                        "Harshit goyal",
+                        "Dhruv Kumar"
+                    ],
+                    "summary": "This study investigates the integration and impact of Large Language Models\n(LLMs), like ChatGPT, in India's healthcare sector. Our research employs a dual\napproach, engaging both general users and medical professionals through surveys\nand interviews respectively. Our findings reveal that healthcare professionals\nvalue ChatGPT in medical education and preliminary clinical settings, but\nexercise caution due to concerns about reliability, privacy, and the need for\ncross-verification with medical references. General users show a preference for\nAI interactions in healthcare, but concerns regarding accuracy and trust\npersist. The study underscores the need for these technologies to complement,\nnot replace, human medical expertise, highlighting the importance of developing\nLLMs in collaboration with healthcare providers. This paper enhances the\nunderstanding of LLMs in healthcare, detailing current usage, user trust, and\nimprovement areas. Our insights inform future research and development,\nunderscoring the need for ethically compliant, user-focused LLM advancements\nthat address healthcare-specific challenges.",
+                    "published": "2024-01-28",
+                    "url": "http://arxiv.org/abs/2401.15605v1",
+                    "pdf_url": "http://arxiv.org/pdf/2401.15605v1",
+                    "local_pdf": "/static/downloads/2401.15605v1.pdf"
+                },
+                {
+                    "id": "2304.00524v2",
+                    "title": "A Survey on Federated Learning for the Healthcare Metaverse: Concepts, Applications, Challenges, and Future Directions",
+                    "authors": [
+                        "Ali Kashif Bashir",
+                        "Nancy Victor",
+                        "Sweta Bhattacharya",
+                        "Thien Huynh-The",
+                        "Rajeswari Chengoden",
+                        "Gokul Yenduri",
+                        "Praveen Kumar Reddy Maddikunta",
+                        "Quoc-Viet Pham",
+                        "Thippa Reddy Gadekallu",
+                        "Madhusanka Liyanage"
+                    ],
+                    "summary": "Recent technological advancements have considerately improved healthcare\nsystems to provide various intelligent healthcare services and improve the\nquality of life. Federated learning (FL), a new branch of artificial\nintelligence (AI), opens opportunities to deal with privacy issues in\nhealthcare systems and exploit data and computing resources available at\ndistributed devices. Additionally, the Metaverse, through integrating emerging\ntechnologies, such as AI, cloud edge computing, Internet of Things (IoT),\nblockchain, and semantic communications, has transformed many vertical domains\nin general and the healthcare sector in particular. Obviously, FL shows many\nbenefits and provides new opportunities for conventional and Metaverse\nhealthcare, motivating us to provide a survey on the usage of FL for Metaverse\nhealthcare systems. First, we present preliminaries to IoT-based healthcare\nsystems, FL in conventional healthcare, and Metaverse healthcare. The benefits\nof FL in Metaverse healthcare are then discussed, from improved privacy and\nscalability, better interoperability, better data management, and extra\nsecurity to automation and low-latency healthcare services. Subsequently, we\ndiscuss several applications pertaining to FL-enabled Metaverse healthcare,\nincluding medical diagnosis, patient monitoring, medical education, infectious\ndisease, and drug discovery. Finally, we highlight significant challenges and\npotential solutions toward the realization of FL in Metaverse healthcare.",
+                    "published": "2023-04-02",
+                    "url": "http://arxiv.org/abs/2304.00524v2",
+                    "pdf_url": "http://arxiv.org/pdf/2304.00524v2",
+                    "local_pdf": "/static/downloads/2304.00524v2.pdf"
+                }
+            ],
+            "tech_proposal": "# 大型语言模型在医疗诊断中的应用 技术方案\n\n## 1. 项目概述\n\n基于搜集到的论文资料，我们可以构建一个关于大型语言模型在医疗诊断中的应用的技术方案。这将整合最新的研究成果和技术发展趋势。\n\n## 2. 技术架构\n\n*此部分应包含系统架构图和组件设计*\n\n## 3. 关键技术\n\n根据检索到的论文，以下是一些可能的关键技术：\n\n### 3.1 healthAIChain\n\n- 发表于: 2023-11-01\n- 作者: Naresh Kshetri, James Hutson, Revathy G\n- 主要技术点: *需进一步分析*\n\n### 3.2 DeepSeek reshaping healthcare in China's tertiary hospitals\n\n- 发表于: 2025-02-23\n- 作者: Jishizhan Chen, Qingzeng Zhang\n- 主要技术点: *需进一步分析*\n\n### 3.3 From Military to Healthcare\n\n- 发表于: 2023-08-04\n- 作者: David Oniani, Jordan Hilsman, Yifan Peng 等人\n- 主要技术点: *需进一步分析*\n\n### 3.4 Rapid Review of Generative AI in Smart Medical Applications\n\n- 发表于: 2024-06-08\n- 作者: Yuan Sun, Jorge Ortiz\n- 主要技术点: *需进一步分析*\n\n### 3.5 The Medical Authority of AI\n\n- 发表于: 2021-01-12\n- 作者: Yue You, Yubo Kou, Xianghua Ding 等人\n- 主要技术点: *需进一步分析*\n\n\n## 4. 实施路径\n\n*此部分需详细规划项目实施步骤*\n\n## 5. 资源需求\n\n*此部分需列出人力、硬件和软件资源*\n\n## 6. 风险评估\n\n*此部分需评估可能的技术挑战和应对策略*\n\n## 7. 项目时间线\n\n*此部分需提供各阶段时间估计*\n\n## 8. 参考文献\n\n[1] healthAIChain: Improving security and safety using Blockchain Technology applications in AI-based healthcare systems. Naresh Kshetri, James Hutson, Revathy G. 2023-11-01.\n[2] DeepSeek reshaping healthcare in China's tertiary hospitals. Jishizhan Chen, Qingzeng Zhang. 2025-02-23.\n[3] From Military to Healthcare: Adopting and Expanding Ethical Principles for Generative Artificial Intelligence. David Oniani, Jordan Hilsman, Yifan Peng, COL, Ronald K. Poropatich, COL Jeremy C. Pamplin, LTC Gary L. Legault, Yanshan Wang. 2023-08-04.\n[4] Rapid Review of Generative AI in Smart Medical Applications. Yuan Sun, Jorge Ortiz. 2024-06-08.\n[5] The Medical Authority of AI: A Study of AI-enabled Consumer-facing Health Technology. Yue You, Yubo Kou, Xianghua Ding, Xinning Gui. 2021-01-12.\n[6] Securing AI-based Healthcare Systems using Blockchain Technology: A State-of-the-Art Systematic Literature Review and Future Research Directions. Rucha Shinde, Shruti Patil, Ketan Kotecha, Vidyasagar Potdar, Ganeshsree Selvachandran, Ajith Abraham. 2022-05-30.\n[7] Readying Medical Students for Medical AI: The Need to Embed AI Ethics Education. Thomas P Quinn, Simon Coghlan. 2021-09-07.\n[8] The Integration of Blockchain and Artificial Intelligence for Secure Healthcare Systems. Umar Safdar, Simon Gabrael. 2025-01-04.\n[9] AI as a Medical Ally: Evaluating ChatGPT's Usage and Impact in Indian Healthcare. Aryaman Raina, Prateek Mishra, Harshit goyal, Dhruv Kumar. 2024-01-28.\n[10] A Survey on Federated Learning for the Healthcare Metaverse: Concepts, Applications, Challenges, and Future Directions. Ali Kashif Bashir, Nancy Victor, Sweta Bhattacharya, Thien Huynh-The, Rajeswari Chengoden, Gokul Yenduri, Praveen Kumar Reddy Maddikunta, Quoc-Viet Pham, Thippa Reddy Gadekallu, Madhusanka Liyanage. 2023-04-02.\n",
+            "note": "由于API调用错误，生成了简化版技术方案"
+        },
+        "dc2ae474-cf69-4ee6-a0bd-131b1ee963ab": {
+            "topic": "智能机器人",
+            "keywords": [],
+            "requirements": null,
+            "max_papers": 10,
+            "status": "completed",
+            "created_at": "2025-06-20T20:46:11.544563",
+            "expires_at": "2025-06-21T20:46:11.544563",
+            "papers": [
+                {
+                    "id": "2505.05753v1",
+                    "title": "Towards Embodiment Scaling Laws in Robot Locomotion",
+                    "authors": [
+                        "Bo Ai",
+                        "Liu Dai",
+                        "Nico Bohlinger",
+                        "Dichen Li",
+                        "Tongzhou Mu",
+                        "Zhanxin Wu",
+                        "K. Fay",
+                        "Henrik I. Christensen",
+                        "Jan Peters",
+                        "Hao Su"
+                    ],
+                    "summary": "Developing generalist agents that can operate across diverse tasks,\nenvironments, and physical embodiments is a grand challenge in robotics and\nartificial intelligence. In this work, we focus on the axis of embodiment and\ninvestigate embodiment scaling laws$\\unicode{x2013}$the hypothesis that\nincreasing the number of training embodiments improves generalization to unseen\nones. Using robot locomotion as a test bed, we procedurally generate a dataset\nof $\\sim$1,000 varied embodiments, spanning humanoids, quadrupeds, and\nhexapods, and train generalist policies capable of handling diverse observation\nand action spaces on random subsets. We find that increasing the number of\ntraining embodiments improves generalization to unseen ones, and scaling\nembodiments is more effective in enabling embodiment-level generalization than\nscaling data on small, fixed sets of embodiments. Notably, our best policy,\ntrained on the full dataset, zero-shot transfers to novel embodiments in the\nreal world, such as Unitree Go2 and H1. These results represent a step toward\ngeneral embodied intelligence, with potential relevance to adaptive control for\nconfigurable robots, co-design of morphology and control, and beyond.",
+                    "published": "2025-05-09",
+                    "url": "http://arxiv.org/abs/2505.05753v1",
+                    "pdf_url": "http://arxiv.org/pdf/2505.05753v1",
+                    "local_pdf": "/static/downloads/2505.05753v1.pdf"
+                },
+                {
+                    "id": "2409.01630v1",
+                    "title": "SafeEmbodAI: a Safety Framework for Mobile Robots in Embodied AI Systems",
+                    "authors": [
+                        "Wenxiao Zhang",
+                        "Xiangrui Kong",
+                        "Thomas Braunl",
+                        "Jin B. Hong"
+                    ],
+                    "summary": "Embodied AI systems, including AI-powered robots that autonomously interact\nwith the physical world, stand to be significantly advanced by Large Language\nModels (LLMs), which enable robots to better understand complex language\ncommands and perform advanced tasks with enhanced comprehension and\nadaptability, highlighting their potential to improve embodied AI capabilities.\nHowever, this advancement also introduces safety challenges, particularly in\nrobotic navigation tasks. Improper safety management can lead to failures in\ncomplex environments and make the system vulnerable to malicious command\ninjections, resulting in unsafe behaviours such as detours or collisions. To\naddress these issues, we propose \\textit{SafeEmbodAI}, a safety framework for\nintegrating mobile robots into embodied AI systems. \\textit{SafeEmbodAI}\nincorporates secure prompting, state management, and safety validation\nmechanisms to secure and assist LLMs in reasoning through multi-modal data and\nvalidating responses. We designed a metric to evaluate mission-oriented\nexploration, and evaluations in simulated environments demonstrate that our\nframework effectively mitigates threats from malicious commands and improves\nperformance in various environment settings, ensuring the safety of embodied AI\nsystems. Notably, In complex environments with mixed obstacles, our method\ndemonstrates a significant performance increase of 267\\% compared to the\nbaseline in attack scenarios, highlighting its robustness in challenging\nconditions.",
+                    "published": "2024-09-03",
+                    "url": "http://arxiv.org/abs/2409.01630v1",
+                    "pdf_url": "http://arxiv.org/pdf/2409.01630v1",
+                    "local_pdf": "/static/downloads/2409.01630v1.pdf"
+                },
+                {
+                    "id": "2405.15775v1",
+                    "title": "AI Robots and Humanoid AI: Review, Perspectives and Directions",
+                    "authors": [
+                        "Longbing Cao"
+                    ],
+                    "summary": "In the approximately century-long journey of robotics, humanoid robots made\ntheir debut around six decades ago. The rapid advancements in generative AI,\nlarge language models (LLMs), and large multimodal models (LMMs) have reignited\ninterest in humanoids, steering them towards real-time, interactive, and\nmultimodal designs and applications. This resurgence unveils boundless\nopportunities for AI robotics and novel applications, paving the way for\nautomated, real-time and humane interactions with humanoid advisers, educators,\nmedical professionals, caregivers, and receptionists. However, while current\nhumanoid robots boast human-like appearances, they have yet to embody true\nhumaneness, remaining distant from achieving human-like intelligence. In our\ncomprehensive review, we delve into the intricate landscape of AI robotics and\nAI humanoid robots in particular, exploring the challenges, perspectives and\ndirections in transitioning from human-looking to humane humanoids and\nfostering human-like robotics. This endeavour synergizes the advancements in\nLLMs, LMMs, generative AI, and human-level AI with humanoid robotics,\nomniverse, and decentralized AI, ushering in the era of AI humanoids and\nhumanoid AI.",
+                    "published": "2024-03-19",
+                    "url": "http://arxiv.org/abs/2405.15775v1",
+                    "pdf_url": "http://arxiv.org/pdf/2405.15775v1",
+                    "local_pdf": "/static/downloads/2405.15775v1.pdf"
+                },
+                {
+                    "id": "1709.08992v2",
+                    "title": "Embodied Evolution in Collective Robotics: A Review",
+                    "authors": [
+                        "Nicolas Bredeche",
+                        "Evert Haasdijk",
+                        "Abraham Prieto"
+                    ],
+                    "summary": "This paper provides an overview of evolutionary robotics techniques applied\nto on-line distributed evolution for robot collectives -- namely, embodied\nevolution. It provides a definition of embodied evolution as well as a thorough\ndescription of the underlying concepts and mechanisms. The paper also presents\na comprehensive summary of research published in the field since its inception\n(1999-2017), providing various perspectives to identify the major trends. In\nparticular, we identify a shift from considering embodied evolution as a\nparallel search method within small robot collectives (fewer than 10 robots) to\nembodied evolution as an on-line distributed learning method for designing\ncollective behaviours in swarm-like collectives. The paper concludes with a\ndiscussion of applications and open questions, providing a milestone for past\nand an inspiration for future research.",
+                    "published": "2017-09-26",
+                    "url": "http://arxiv.org/abs/1709.08992v2",
+                    "pdf_url": "http://arxiv.org/pdf/1709.08992v2",
+                    "local_pdf": "/static/downloads/1709.08992v2.pdf"
+                },
+                {
+                    "id": "2405.17846v1",
+                    "title": "Safety Control of Service Robots with LLMs and Embodied Knowledge Graphs",
+                    "authors": [
+                        "Yong Qi",
+                        "Gabriel Kyebambo",
+                        "Siyuan Xie",
+                        "Wei Shen",
+                        "Shenghui Wang",
+                        "Bitao Xie",
+                        "Bin He",
+                        "Zhipeng Wang",
+                        "Shuo Jiang"
+                    ],
+                    "summary": "Safety limitations in service robotics across various industries have raised\nsignificant concerns about the need for robust mechanisms ensuring that robots\nadhere to safe practices, thereby preventing actions that might harm humans or\ncause property damage. Despite advances, including the integration of Knowledge\nGraphs (KGs) with Large Language Models (LLMs), challenges in ensuring\nconsistent safety in autonomous robot actions persist. In this paper, we\npropose a novel integration of Large Language Models with Embodied Robotic\nControl Prompts (ERCPs) and Embodied Knowledge Graphs (EKGs) to enhance the\nsafety framework for service robots. ERCPs are designed as predefined\ninstructions that ensure LLMs generate safe and precise responses. These\nresponses are subsequently validated by EKGs, which provide a comprehensive\nknowledge base ensuring that the actions of the robot are continuously aligned\nwith safety protocols, thereby promoting safer operational practices in varied\ncontexts. Our experimental setup involved diverse real-world tasks, where\nrobots equipped with our framework demonstrated significantly higher compliance\nwith safety standards compared to traditional methods. This integration fosters\nsecure human-robot interactions and positions our methodology at the forefront\nof AI-driven safety innovations in service robotics.",
+                    "published": "2024-05-28",
+                    "url": "http://arxiv.org/abs/2405.17846v1",
+                    "pdf_url": "http://arxiv.org/pdf/2405.17846v1",
+                    "local_pdf": "/static/downloads/2405.17846v1.pdf"
+                },
+                {
+                    "id": "2503.19941v1",
+                    "title": "Body Discovery of Embodied AI",
+                    "authors": [
+                        "Zhe Sun",
+                        "Pengfei Tian",
+                        "Xiaozhu Hu",
+                        "Xiaoyu Zhao",
+                        "Huiying Li",
+                        "Zhenliang Zhang"
+                    ],
+                    "summary": "In the pursuit of realizing artificial general intelligence (AGI), the\nimportance of embodied artificial intelligence (AI) becomes increasingly\napparent. Following this trend, research integrating robots with AGI has become\nprominent. As various kinds of embodiments have been designed, adaptability to\ndiverse embodiments will become important to AGI. We introduce a new challenge,\ntermed \"Body Discovery of Embodied AI\", focusing on tasks of recognizing\nembodiments and summarizing neural signal functionality. The challenge\nencompasses the precise definition of an AI body and the intricate task of\nidentifying embodiments in dynamic environments, where conventional approaches\noften prove inadequate. To address these challenges, we apply causal inference\nmethod and evaluate it by developing a simulator tailored for testing\nalgorithms with virtual environments. Finally, we validate the efficacy of our\nalgorithms through empirical testing, demonstrating their robust performance in\nvarious scenarios based on virtual environments.",
+                    "published": "2025-03-25",
+                    "url": "http://arxiv.org/abs/2503.19941v1",
+                    "pdf_url": "http://arxiv.org/pdf/2503.19941v1",
+                    "local_pdf": "/static/downloads/2503.19941v1.pdf"
+                },
+                {
+                    "id": "2408.11537v1",
+                    "title": "A Survey of Embodied Learning for Object-Centric Robotic Manipulation",
+                    "authors": [
+                        "Ying Zheng",
+                        "Lei Yao",
+                        "Yuejiao Su",
+                        "Yi Zhang",
+                        "Yi Wang",
+                        "Sicheng Zhao",
+                        "Yiyi Zhang",
+                        "Lap-Pui Chau"
+                    ],
+                    "summary": "Embodied learning for object-centric robotic manipulation is a rapidly\ndeveloping and challenging area in embodied AI. It is crucial for advancing\nnext-generation intelligent robots and has garnered significant interest\nrecently. Unlike data-driven machine learning methods, embodied learning\nfocuses on robot learning through physical interaction with the environment and\nperceptual feedback, making it especially suitable for robotic manipulation. In\nthis paper, we provide a comprehensive survey of the latest advancements in\nthis field and categorize the existing work into three main branches: 1)\nEmbodied perceptual learning, which aims to predict object pose and affordance\nthrough various data representations; 2) Embodied policy learning, which\nfocuses on generating optimal robotic decisions using methods such as\nreinforcement learning and imitation learning; 3) Embodied task-oriented\nlearning, designed to optimize the robot's performance based on the\ncharacteristics of different tasks in object grasping and manipulation. In\naddition, we offer an overview and discussion of public datasets, evaluation\nmetrics, representative applications, current challenges, and potential future\nresearch directions. A project associated with this survey has been established\nat https://github.com/RayYoh/OCRM_survey.",
+                    "published": "2024-08-21",
+                    "url": "http://arxiv.org/abs/2408.11537v1",
+                    "pdf_url": "http://arxiv.org/pdf/2408.11537v1",
+                    "local_pdf": "/static/downloads/2408.11537v1.pdf"
+                },
+                {
+                    "id": "2404.03325v2",
+                    "title": "Embodied Neuromorphic Artificial Intelligence for Robotics: Perspectives, Challenges, and Research Development Stack",
+                    "authors": [
+                        "Rachmad Vidya Wicaksana Putra",
+                        "Alberto Marchisio",
+                        "Fakhreddine Zayer",
+                        "Jorge Dias",
+                        "Muhammad Shafique"
+                    ],
+                    "summary": "Robotic technologies have been an indispensable part for improving human\nproductivity since they have been helping humans in completing diverse,\ncomplex, and intensive tasks in a fast yet accurate and efficient way.\nTherefore, robotic technologies have been deployed in a wide range of\napplications, ranging from personal to industrial use-cases. However, current\nrobotic technologies and their computing paradigm still lack embodied\nintelligence to efficiently interact with operational environments, respond\nwith correct/expected actions, and adapt to changes in the environments. Toward\nthis, recent advances in neuromorphic computing with Spiking Neural Networks\n(SNN) have demonstrated the potential to enable the embodied intelligence for\nrobotics through bio-plausible computing paradigm that mimics how the\nbiological brain works, known as \"neuromorphic artificial intelligence (AI)\".\nHowever, the field of neuromorphic AI-based robotics is still at an early\nstage, therefore its development and deployment for solving real-world problems\nexpose new challenges in different design aspects, such as accuracy,\nadaptability, efficiency, reliability, and security. To address these\nchallenges, this paper will discuss how we can enable embodied neuromorphic AI\nfor robotic systems through our perspectives: (P1) Embodied intelligence based\non effective learning rule, training mechanism, and adaptability; (P2)\nCross-layer optimizations for energy-efficient neuromorphic computing; (P3)\nRepresentative and fair benchmarks; (P4) Low-cost reliability and safety\nenhancements; (P5) Security and privacy for neuromorphic computing; and (P6) A\nsynergistic development for energy-efficient and robust neuromorphic-based\nrobotics. Furthermore, this paper identifies research challenges and\nopportunities, as well as elaborates our vision for future research development\ntoward embodied neuromorphic AI for robotics.",
+                    "published": "2024-04-04",
+                    "url": "http://arxiv.org/abs/2404.03325v2",
+                    "pdf_url": "http://arxiv.org/pdf/2404.03325v2",
+                    "local_pdf": "/static/downloads/2404.03325v2.pdf"
+                },
+                {
+                    "id": "2301.00452v2",
+                    "title": "Human-in-the-loop Embodied Intelligence with Interactive Simulation Environment for Surgical Robot Learning",
+                    "authors": [
+                        "Yonghao Long",
+                        "Wang Wei",
+                        "Tao Huang",
+                        "Yuehao Wang",
+                        "Qi Dou"
+                    ],
+                    "summary": "Surgical robot automation has attracted increasing research interest over the\npast decade, expecting its potential to benefit surgeons, nurses and patients.\nRecently, the learning paradigm of embodied intelligence has demonstrated\npromising ability to learn good control policies for various complex tasks,\nwhere embodied AI simulators play an essential role to facilitate relevant\nresearch. However, existing open-sourced simulators for surgical robot are\nstill not sufficiently supporting human interactions through physical input\ndevices, which further limits effective investigations on how the human\ndemonstrations would affect policy learning. In this work, we study\nhuman-in-the-loop embodied intelligence with a new interactive simulation\nplatform for surgical robot learning. Specifically, we establish our platform\nbased on our previously released SurRoL simulator with several new features\nco-developed to allow high-quality human interaction via an input device. We\nshowcase the improvement of our simulation environment with the designed new\nfeatures, and validate effectiveness of incorporating human factors in embodied\nintelligence through the use of human demonstrations and reinforcement learning\nas a representative example. Promising results are obtained in terms of\nlearning efficiency. Lastly, five new surgical robot training tasks are\ndeveloped and released, with which we hope to pave the way for future research\non surgical embodied intelligence. Our learning platform is publicly released\nand will be continuously updated in the website:\nhttps://med-air.github.io/SurRoL.",
+                    "published": "2023-01-01",
+                    "url": "http://arxiv.org/abs/2301.00452v2",
+                    "pdf_url": "http://arxiv.org/pdf/2301.00452v2",
+                    "local_pdf": "/static/downloads/2301.00452v2.pdf"
+                },
+                {
+                    "id": "2312.05822v1",
+                    "title": "Toward Open-ended Embodied Tasks Solving",
+                    "authors": [
+                        "William Wei Wang",
+                        "Dongqi Han",
+                        "Xufang Luo",
+                        "Yifei Shen",
+                        "Charles Ling",
+                        "Boyu Wang",
+                        "Dongsheng Li"
+                    ],
+                    "summary": "Empowering embodied agents, such as robots, with Artificial Intelligence (AI)\nhas become increasingly important in recent years. A major challenge is task\nopen-endedness. In practice, robots often need to perform tasks with novel\ngoals that are multifaceted, dynamic, lack a definitive \"end-state\", and were\nnot encountered during training. To tackle this problem, this paper introduces\n\\textit{Diffusion for Open-ended Goals} (DOG), a novel framework designed to\nenable embodied AI to plan and act flexibly and dynamically for open-ended task\ngoals. DOG synergizes the generative prowess of diffusion models with\nstate-of-the-art, training-free guidance techniques to adaptively perform\nonline planning and control. Our evaluations demonstrate that DOG can handle\nvarious kinds of novel task goals not seen during training, in both maze\nnavigation and robot control problems. Our work sheds light on enhancing\nembodied AI's adaptability and competency in tackling open-ended goals.",
+                    "published": "2023-12-10",
+                    "url": "http://arxiv.org/abs/2312.05822v1",
+                    "pdf_url": "http://arxiv.org/pdf/2312.05822v1",
+                    "local_pdf": "/static/downloads/2312.05822v1.pdf"
+                }
+            ],
+            "tech_proposal": "# 智能机器人 技术方案\n\n## 1. 项目概述\n\n基于搜集到的论文资料，我们可以构建一个关于智能机器人的技术方案。这将整合最新的研究成果和技术发展趋势。\n\n## 2. 技术架构\n\n*此部分应包含系统架构图和组件设计*\n\n## 3. 关键技术\n\n根据检索到的论文，以下是一些可能的关键技术：\n\n### 3.1 Towards Embodiment Scaling Laws in Robot Locomotion\n\n- 发表于: 2025-05-09\n- 作者: Bo Ai, Liu Dai, Nico Bohlinger 等人\n- 主要技术点: *需进一步分析*\n\n### 3.2 SafeEmbodAI\n\n- 发表于: 2024-09-03\n- 作者: Wenxiao Zhang, Xiangrui Kong, Thomas Braunl 等人\n- 主要技术点: *需进一步分析*\n\n### 3.3 AI Robots and Humanoid AI\n\n- 发表于: 2024-03-19\n- 作者: Longbing Cao\n- 主要技术点: *需进一步分析*\n\n### 3.4 Embodied Evolution in Collective Robotics\n\n- 发表于: 2017-09-26\n- 作者: Nicolas Bredeche, Evert Haasdijk, Abraham Prieto\n- 主要技术点: *需进一步分析*\n\n### 3.5 Safety Control of Service Robots with LLMs and Embodied Knowledge Graphs\n\n- 发表于: 2024-05-28\n- 作者: Yong Qi, Gabriel Kyebambo, Siyuan Xie 等人\n- 主要技术点: *需进一步分析*\n\n\n## 4. 实施路径\n\n*此部分需详细规划项目实施步骤*\n\n## 5. 资源需求\n\n*此部分需列出人力、硬件和软件资源*\n\n## 6. 风险评估\n\n*此部分需评估可能的技术挑战和应对策略*\n\n## 7. 项目时间线\n\n*此部分需提供各阶段时间估计*\n\n## 8. 参考文献\n\n[1] Towards Embodiment Scaling Laws in Robot Locomotion. Bo Ai, Liu Dai, Nico Bohlinger, Dichen Li, Tongzhou Mu, Zhanxin Wu, K. Fay, Henrik I. Christensen, Jan Peters, Hao Su. 2025-05-09.\n[2] SafeEmbodAI: a Safety Framework for Mobile Robots in Embodied AI Systems. Wenxiao Zhang, Xiangrui Kong, Thomas Braunl, Jin B. Hong. 2024-09-03.\n[3] AI Robots and Humanoid AI: Review, Perspectives and Directions. Longbing Cao. 2024-03-19.\n[4] Embodied Evolution in Collective Robotics: A Review. Nicolas Bredeche, Evert Haasdijk, Abraham Prieto. 2017-09-26.\n[5] Safety Control of Service Robots with LLMs and Embodied Knowledge Graphs. Yong Qi, Gabriel Kyebambo, Siyuan Xie, Wei Shen, Shenghui Wang, Bitao Xie, Bin He, Zhipeng Wang, Shuo Jiang. 2024-05-28.\n[6] Body Discovery of Embodied AI. Zhe Sun, Pengfei Tian, Xiaozhu Hu, Xiaoyu Zhao, Huiying Li, Zhenliang Zhang. 2025-03-25.\n[7] A Survey of Embodied Learning for Object-Centric Robotic Manipulation. Ying Zheng, Lei Yao, Yuejiao Su, Yi Zhang, Yi Wang, Sicheng Zhao, Yiyi Zhang, Lap-Pui Chau. 2024-08-21.\n[8] Embodied Neuromorphic Artificial Intelligence for Robotics: Perspectives, Challenges, and Research Development Stack. Rachmad Vidya Wicaksana Putra, Alberto Marchisio, Fakhreddine Zayer, Jorge Dias, Muhammad Shafique. 2024-04-04.\n[9] Human-in-the-loop Embodied Intelligence with Interactive Simulation Environment for Surgical Robot Learning. Yonghao Long, Wang Wei, Tao Huang, Yuehao Wang, Qi Dou. 2023-01-01.\n[10] Toward Open-ended Embodied Tasks Solving. William Wei Wang, Dongqi Han, Xufang Luo, Yifei Shen, Charles Ling, Boyu Wang, Dongsheng Li. 2023-12-10.\n",
+            "note": "由于API调用错误，生成了简化版技术方案"
+        },
+        "8e8d08c5-a830-4c57-baa7-e68627e8e1e9": {
+            "topic": "世界模型",
+            "keywords": [],
+            "requirements": null,
+            "max_papers": 10,
+            "status": "completed",
+            "created_at": "2025-06-20T20:50:48.307399",
+            "expires_at": "2025-06-21T20:50:48.307399",
+            "papers": [
+                {
+                    "id": "2305.04532v2",
+                    "title": "Latest Trends in Artificial Intelligence Technology: A Scoping Review",
+                    "authors": [
+                        "Teemu Niskanen",
+                        "Tuomo Sipola",
+                        "Olli Väänänen"
+                    ],
+                    "summary": "Artificial intelligence is more ubiquitous in multiple domains. Smartphones,\nsocial media platforms, search engines, and autonomous vehicles are just a few\nexamples of applications that utilize artificial intelligence technologies to\nenhance their performance. This study carries out a scoping review of the\ncurrent state-of-the-art artificial intelligence technologies following the\nPRISMA framework. The goal was to find the most advanced technologies used in\ndifferent domains of artificial intelligence technology research. Three\nrecognized journals were used from artificial intelligence and machine learning\ndomain: Journal of Artificial Intelligence Research, Journal of Machine\nLearning Research, and Machine Learning, and articles published in 2022 were\nobserved. Certain qualifications were laid for the technological solutions: the\ntechnology must be tested against comparable solutions, commonly approved or\notherwise well justified datasets must be used while applying, and results must\nshow improvements against comparable solutions. One of the most important parts\nof the technology development appeared to be how to process and exploit the\ndata gathered from multiple sources. The data can be highly unstructured and\nthe technological solution should be able to utilize the data with minimum\nmanual work from humans. The results of this review indicate that creating\nlabeled datasets is very laborious, and solutions exploiting unsupervised or\nsemi-supervised learning technologies are more and more researched. The\nlearning algorithms should be able to be updated efficiently, and predictions\nshould be interpretable. Using artificial intelligence technologies in\nreal-world applications, safety and explainable predictions are mandatory to\nconsider before mass adoption can occur.",
+                    "published": "2023-05-08",
+                    "url": "http://arxiv.org/abs/2305.04532v2",
+                    "pdf_url": "http://arxiv.org/pdf/2305.04532v2",
+                    "local_pdf": "/static/downloads/2305.04532v2.pdf"
+                },
+                {
+                    "id": "2009.00351v1",
+                    "title": "Advancing from Predictive Maintenance to Intelligent Maintenance with AI and IIoT",
+                    "authors": [
+                        "Haining Zheng",
+                        "Antonio R. Paiva",
+                        "Chris S. Gurciullo"
+                    ],
+                    "summary": "As Artificial Intelligent (AI) technology advances and increasingly large\namounts of data become readily available via various Industrial Internet of\nThings (IIoT) projects, we evaluate the state of the art of predictive\nmaintenance approaches and propose our innovative framework to improve the\ncurrent practice. The paper first reviews the evolution of reliability\nmodelling technology in the past 90 years and discusses major technologies\ndeveloped in industry and academia. We then introduce the next generation\nmaintenance framework - Intelligent Maintenance, and discuss its key\ncomponents. This AI and IIoT based Intelligent Maintenance framework is\ncomposed of (1) latest machine learning algorithms including probabilistic\nreliability modelling with deep learning, (2) real-time data collection,\ntransfer, and storage through wireless smart sensors, (3) Big Data\ntechnologies, (4) continuously integration and deployment of machine learning\nmodels, (5) mobile device and AR/VR applications for fast and better\ndecision-making in the field. Particularly, we proposed a novel probabilistic\ndeep learning reliability modelling approach and demonstrate it in the Turbofan\nEngine Degradation Dataset.",
+                    "published": "2020-09-01",
+                    "url": "http://arxiv.org/abs/2009.00351v1",
+                    "pdf_url": "http://arxiv.org/pdf/2009.00351v1",
+                    "local_pdf": "/static/downloads/2009.00351v1.pdf"
+                },
+                {
+                    "id": "2312.03120v1",
+                    "title": "The Landscape of Modern Machine Learning: A Review of Machine, Distributed and Federated Learning",
+                    "authors": [
+                        "Omer Subasi",
+                        "Oceane Bel",
+                        "Joseph Manzano",
+                        "Kevin Barker"
+                    ],
+                    "summary": "With the advance of the powerful heterogeneous, parallel and distributed\ncomputing systems and ever increasing immense amount of data, machine learning\nhas become an indispensable part of cutting-edge technology, scientific\nresearch and consumer products. In this study, we present a review of modern\nmachine and deep learning. We provide a high-level overview for the latest\nadvanced machine learning algorithms, applications, and frameworks. Our\ndiscussion encompasses parallel distributed learning, deep learning as well as\nfederated learning. As a result, our work serves as an introductory text to the\nvast field of modern machine learning.",
+                    "published": "2023-12-05",
+                    "url": "http://arxiv.org/abs/2312.03120v1",
+                    "pdf_url": "http://arxiv.org/pdf/2312.03120v1",
+                    "local_pdf": "/static/downloads/2312.03120v1.pdf"
+                },
+                {
+                    "id": "2102.01375v2",
+                    "title": "Applications of Federated Learning in Smart Cities: Recent Advances, Taxonomy, and Open Challenges",
+                    "authors": [
+                        "Zhaohua Zheng",
+                        "Yize Zhou",
+                        "Yilong Sun",
+                        "Zhang Wang",
+                        "Boyi Liu",
+                        "Keqiu Li"
+                    ],
+                    "summary": "Federated learning plays an important role in the process of smart cities.\nWith the development of big data and artificial intelligence, there is a\nproblem of data privacy protection in this process. Federated learning is\ncapable of solving this problem. This paper starts with the current\ndevelopments of federated learning and its applications in various fields. We\nconduct a comprehensive investigation. This paper summarize the latest research\non the application of federated learning in various fields of smart cities.\nIn-depth understanding of the current development of federated learning from\nthe Internet of Things, transportation, communications, finance, medical and\nother fields. Before that, we introduce the background, definition and key\ntechnologies of federated learning. Further more, we review the key\ntechnologies and the latest results. Finally, we discuss the future\napplications and research directions of federated learning in smart cities.",
+                    "published": "2021-02-02",
+                    "url": "http://arxiv.org/abs/2102.01375v2",
+                    "pdf_url": "http://arxiv.org/pdf/2102.01375v2",
+                    "local_pdf": "/static/downloads/2102.01375v2.pdf"
+                },
+                {
+                    "id": "2106.09756v1",
+                    "title": "PyKale: Knowledge-Aware Machine Learning from Multiple Sources in Python",
+                    "authors": [
+                        "Haiping Lu",
+                        "Xianyuan Liu",
+                        "Robert Turner",
+                        "Peizhen Bai",
+                        "Raivo E Koot",
+                        "Shuo Zhou",
+                        "Mustafa Chasmai",
+                        "Lawrence Schobs"
+                    ],
+                    "summary": "Machine learning is a general-purpose technology holding promises for many\ninterdisciplinary research problems. However, significant barriers exist in\ncrossing disciplinary boundaries when most machine learning tools are developed\nin different areas separately. We present Pykale - a Python library for\nknowledge-aware machine learning on graphs, images, texts, and videos to enable\nand accelerate interdisciplinary research. We formulate new green machine\nlearning guidelines based on standard software engineering practices and\npropose a novel pipeline-based application programming interface (API). PyKale\nfocuses on leveraging knowledge from multiple sources for accurate and\ninterpretable prediction, thus supporting multimodal learning and transfer\nlearning (particularly domain adaptation) with latest deep learning and\ndimensionality reduction models. We build PyKale on PyTorch and leverage the\nrich PyTorch ecosystem. Our pipeline-based API design enforces standardization\nand minimalism, embracing green machine learning concepts via reducing\nrepetitions and redundancy, reusing existing resources, and recycling learning\nmodels across areas. We demonstrate its interdisciplinary nature via examples\nin bioinformatics, knowledge graph, image/video recognition, and medical\nimaging.",
+                    "published": "2021-06-17",
+                    "url": "http://arxiv.org/abs/2106.09756v1",
+                    "pdf_url": "http://arxiv.org/pdf/2106.09756v1",
+                    "local_pdf": "/static/downloads/2106.09756v1.pdf"
+                },
+                {
+                    "id": "1906.10025v2",
+                    "title": "Modern Deep Reinforcement Learning Algorithms",
+                    "authors": [
+                        "Sergey Ivanov",
+                        "Alexander D'yakonov"
+                    ],
+                    "summary": "Recent advances in Reinforcement Learning, grounded on combining classical\ntheoretical results with Deep Learning paradigm, led to breakthroughs in many\nartificial intelligence tasks and gave birth to Deep Reinforcement Learning\n(DRL) as a field of research. In this work latest DRL algorithms are reviewed\nwith a focus on their theoretical justification, practical limitations and\nobserved empirical properties.",
+                    "published": "2019-06-24",
+                    "url": "http://arxiv.org/abs/1906.10025v2",
+                    "pdf_url": "http://arxiv.org/pdf/1906.10025v2",
+                    "local_pdf": "/static/downloads/1906.10025v2.pdf"
+                },
+                {
+                    "id": "2101.01781v1",
+                    "title": "A Review of Artificial Intelligence Technologies for Early Prediction of Alzheimer's Disease",
+                    "authors": [
+                        "Kuo Yang",
+                        "Emad A. Mohammed"
+                    ],
+                    "summary": "Alzheimer's Disease (AD) is a severe brain disorder, destroying memories and\nbrain functions. AD causes chronically, progressively, and irreversibly\ncognitive declination and brain damages. The reliable and effective evaluation\nof early dementia has become essential research with medical imaging\ntechnologies and computer-aided algorithms. This trend has moved to modern\nArtificial Intelligence (AI) technologies motivated by deeplearning success in\nimage classification and natural language processing. The purpose of this\nreview is to provide an overview of the latest research involving deep-learning\nalgorithms in evaluating the process of dementia, diagnosing the early stage of\nAD, and discussing an outlook for this research. This review introduces various\napplications of modern AI algorithms in AD diagnosis, including Convolutional\nNeural Network (CNN), Recurrent Neural Network (RNN), Automatic Image\nSegmentation, Autoencoder, Graph CNN (GCN), Ensemble Learning, and Transfer\nLearning. The advantages and disadvantages of the proposed methods and their\nperformance are discussed. The conclusion section summarizes the primary\ncontributions and medical imaging preprocessing techniques applied in the\nreviewed research. Finally, we discuss the limitations and future outlooks.",
+                    "published": "2020-12-22",
+                    "url": "http://arxiv.org/abs/2101.01781v1",
+                    "pdf_url": "http://arxiv.org/pdf/2101.01781v1",
+                    "local_pdf": "/static/downloads/2101.01781v1.pdf"
+                },
+                {
+                    "id": "2404.09022v1",
+                    "title": "Navigating the Landscape of Large Language Models: A Comprehensive Review and Analysis of Paradigms and Fine-Tuning Strategies",
+                    "authors": [
+                        "Benjue Weng"
+                    ],
+                    "summary": "With the surge of ChatGPT,the use of large models has significantly\nincreased,rapidly rising to prominence across the industry and sweeping across\nthe internet. This article is a comprehensive review of fine-tuning methods for\nlarge models. This paper investigates the latest technological advancements and\nthe application of advanced methods in aspects such as task-adaptive\nfine-tuning,domain-adaptive fine-tuning,few-shot learning,knowledge\ndistillation,multi-task learning,parameter-efficient fine-tuning,and dynamic\nfine-tuning.",
+                    "published": "2024-04-13",
+                    "url": "http://arxiv.org/abs/2404.09022v1",
+                    "pdf_url": "http://arxiv.org/pdf/2404.09022v1",
+                    "local_pdf": "/static/downloads/2404.09022v1.pdf"
+                },
+                {
+                    "id": "2202.10564v1",
+                    "title": "Human-in-the-loop Machine Learning: A Macro-Micro Perspective",
+                    "authors": [
+                        "Jiangtao Wang",
+                        "Bin Guo",
+                        "Liming Chen"
+                    ],
+                    "summary": "Though technical advance of artificial intelligence and machine learning has\nenabled many promising intelligent systems, many computing tasks are still not\nable to be fully accomplished by machine intelligence. Motivated by the\ncomplementary nature of human and machine intelligence, an emerging trend is to\ninvolve humans in the loop of machine learning and decision-making. In this\npaper, we provide a macro-micro review of human-in-the-loop machine learning.\nWe first describe major machine learning challenges which can be addressed by\nhuman intervention in the loop. Then we examine closely the latest research and\nfindings of introducing humans into each step of the lifecycle of machine\nlearning. Finally, we analyze current research gaps and point out future\nresearch directions.",
+                    "published": "2022-02-21",
+                    "url": "http://arxiv.org/abs/2202.10564v1",
+                    "pdf_url": "http://arxiv.org/pdf/2202.10564v1",
+                    "local_pdf": "/static/downloads/2202.10564v1.pdf"
+                },
+                {
+                    "id": "2410.08224v1",
+                    "title": "A Survey of Spatio-Temporal EEG data Analysis: from Models to Applications",
+                    "authors": [
+                        "Pengfei Wang",
+                        "Huanran Zheng",
+                        "Silong Dai",
+                        "Yiqiao Wang",
+                        "Xiaotian Gu",
+                        "Yuanbin Wu",
+                        "Xiaoling Wang"
+                    ],
+                    "summary": "In recent years, the field of electroencephalography (EEG) analysis has\nwitnessed remarkable advancements, driven by the integration of machine\nlearning and artificial intelligence. This survey aims to encapsulate the\nlatest developments, focusing on emerging methods and technologies that are\npoised to transform our comprehension and interpretation of brain activity. We\ndelve into self-supervised learning methods that enable the robust\nrepresentation of brain signals, which are fundamental for a variety of\ndownstream applications. We also explore emerging discriminative methods,\nincluding graph neural networks (GNN), foundation models, and large language\nmodels (LLMs)-based approaches. Furthermore, we examine generative technologies\nthat harness EEG data to produce images or text, offering novel perspectives on\nbrain activity visualization and interpretation. The survey provides an\nextensive overview of these cutting-edge techniques, their current\napplications, and the profound implications they hold for future research and\nclinical practice. The relevant literature and open-source materials have been\ncompiled and are consistently being refreshed at\n\\url{https://github.com/wpf535236337/LLMs4TS}",
+                    "published": "2024-09-26",
+                    "url": "http://arxiv.org/abs/2410.08224v1",
+                    "pdf_url": "http://arxiv.org/pdf/2410.08224v1",
+                    "local_pdf": "/static/downloads/2410.08224v1.pdf"
+                }
+            ],
+            "tech_proposal": "# 世界模型 技术方案\n\n## 1. 项目概述\n\n基于搜集到的论文资料，我们可以构建一个关于世界模型的技术方案。这将整合最新的研究成果和技术发展趋势。\n\n## 2. 技术架构\n\n*此部分应包含系统架构图和组件设计*\n\n## 3. 关键技术\n\n根据检索到的论文，以下是一些可能的关键技术：\n\n### 3.1 Latest Trends in Artificial Intelligence Technology\n\n- 发表于: 2023-05-08\n- 作者: Teemu Niskanen, Tuomo Sipola, Olli Väänänen\n- 主要技术点: *需进一步分析*\n\n### 3.2 Advancing from Predictive Maintenance to Intelligent Maintenance with AI and IIoT\n\n- 发表于: 2020-09-01\n- 作者: Haining Zheng, Antonio R. Paiva, Chris S. Gurciullo\n- 主要技术点: *需进一步分析*\n\n### 3.3 The Landscape of Modern Machine Learning\n\n- 发表于: 2023-12-05\n- 作者: Omer Subasi, Oceane Bel, Joseph Manzano 等人\n- 主要技术点: *需进一步分析*\n\n### 3.4 Applications of Federated Learning in Smart Cities\n\n- 发表于: 2021-02-02\n- 作者: Zhaohua Zheng, Yize Zhou, Yilong Sun 等人\n- 主要技术点: *需进一步分析*\n\n### 3.5 PyKale\n\n- 发表于: 2021-06-17\n- 作者: Haiping Lu, Xianyuan Liu, Robert Turner 等人\n- 主要技术点: *需进一步分析*\n\n\n## 4. 实施路径\n\n*此部分需详细规划项目实施步骤*\n\n## 5. 资源需求\n\n*此部分需列出人力、硬件和软件资源*\n\n## 6. 风险评估\n\n*此部分需评估可能的技术挑战和应对策略*\n\n## 7. 项目时间线\n\n*此部分需提供各阶段时间估计*\n\n## 8. 参考文献\n\n[1] Latest Trends in Artificial Intelligence Technology: A Scoping Review. Teemu Niskanen, Tuomo Sipola, Olli Väänänen. 2023-05-08.\n[2] Advancing from Predictive Maintenance to Intelligent Maintenance with AI and IIoT. Haining Zheng, Antonio R. Paiva, Chris S. Gurciullo. 2020-09-01.\n[3] The Landscape of Modern Machine Learning: A Review of Machine, Distributed and Federated Learning. Omer Subasi, Oceane Bel, Joseph Manzano, Kevin Barker. 2023-12-05.\n[4] Applications of Federated Learning in Smart Cities: Recent Advances, Taxonomy, and Open Challenges. Zhaohua Zheng, Yize Zhou, Yilong Sun, Zhang Wang, Boyi Liu, Keqiu Li. 2021-02-02.\n[5] PyKale: Knowledge-Aware Machine Learning from Multiple Sources in Python. Haiping Lu, Xianyuan Liu, Robert Turner, Peizhen Bai, Raivo E Koot, Shuo Zhou, Mustafa Chasmai, Lawrence Schobs. 2021-06-17.\n[6] Modern Deep Reinforcement Learning Algorithms. Sergey Ivanov, Alexander D'yakonov. 2019-06-24.\n[7] A Review of Artificial Intelligence Technologies for Early Prediction of Alzheimer's Disease. Kuo Yang, Emad A. Mohammed. 2020-12-22.\n[8] Navigating the Landscape of Large Language Models: A Comprehensive Review and Analysis of Paradigms and Fine-Tuning Strategies. Benjue Weng. 2024-04-13.\n[9] Human-in-the-loop Machine Learning: A Macro-Micro Perspective. Jiangtao Wang, Bin Guo, Liming Chen. 2022-02-21.\n[10] A Survey of Spatio-Temporal EEG data Analysis: from Models to Applications. Pengfei Wang, Huanran Zheng, Silong Dai, Yiqiao Wang, Xiaotian Gu, Yuanbin Wu, Xiaoling Wang. 2024-09-26.\n",
+            "note": "由于API调用错误，生成了简化版技术方案"
+        },
+        "a2dce0a8-026f-483f-ae87-4a26d74e40b8": {
+            "topic": "量化策略",
+            "keywords": [],
+            "requirements": null,
+            "max_papers": 10,
+            "status": "completed",
+            "created_at": "2025-06-20T21:33:33.431969",
+            "expires_at": "2025-06-21T21:33:33.431969",
+            "papers": [
+                {
+                    "id": "2305.04532v2",
+                    "title": "Latest Trends in Artificial Intelligence Technology: A Scoping Review",
+                    "authors": [
+                        "Teemu Niskanen",
+                        "Tuomo Sipola",
+                        "Olli Väänänen"
+                    ],
+                    "summary": "Artificial intelligence is more ubiquitous in multiple domains. Smartphones,\nsocial media platforms, search engines, and autonomous vehicles are just a few\nexamples of applications that utilize artificial intelligence technologies to\nenhance their performance. This study carries out a scoping review of the\ncurrent state-of-the-art artificial intelligence technologies following the\nPRISMA framework. The goal was to find the most advanced technologies used in\ndifferent domains of artificial intelligence technology research. Three\nrecognized journals were used from artificial intelligence and machine learning\ndomain: Journal of Artificial Intelligence Research, Journal of Machine\nLearning Research, and Machine Learning, and articles published in 2022 were\nobserved. Certain qualifications were laid for the technological solutions: the\ntechnology must be tested against comparable solutions, commonly approved or\notherwise well justified datasets must be used while applying, and results must\nshow improvements against comparable solutions. One of the most important parts\nof the technology development appeared to be how to process and exploit the\ndata gathered from multiple sources. The data can be highly unstructured and\nthe technological solution should be able to utilize the data with minimum\nmanual work from humans. The results of this review indicate that creating\nlabeled datasets is very laborious, and solutions exploiting unsupervised or\nsemi-supervised learning technologies are more and more researched. The\nlearning algorithms should be able to be updated efficiently, and predictions\nshould be interpretable. Using artificial intelligence technologies in\nreal-world applications, safety and explainable predictions are mandatory to\nconsider before mass adoption can occur.",
+                    "published": "2023-05-08",
+                    "url": "http://arxiv.org/abs/2305.04532v2",
+                    "pdf_url": "http://arxiv.org/pdf/2305.04532v2",
+                    "local_pdf": "/static/downloads/2305.04532v2.pdf"
+                },
+                {
+                    "id": "2009.00351v1",
+                    "title": "Advancing from Predictive Maintenance to Intelligent Maintenance with AI and IIoT",
+                    "authors": [
+                        "Haining Zheng",
+                        "Antonio R. Paiva",
+                        "Chris S. Gurciullo"
+                    ],
+                    "summary": "As Artificial Intelligent (AI) technology advances and increasingly large\namounts of data become readily available via various Industrial Internet of\nThings (IIoT) projects, we evaluate the state of the art of predictive\nmaintenance approaches and propose our innovative framework to improve the\ncurrent practice. The paper first reviews the evolution of reliability\nmodelling technology in the past 90 years and discusses major technologies\ndeveloped in industry and academia. We then introduce the next generation\nmaintenance framework - Intelligent Maintenance, and discuss its key\ncomponents. This AI and IIoT based Intelligent Maintenance framework is\ncomposed of (1) latest machine learning algorithms including probabilistic\nreliability modelling with deep learning, (2) real-time data collection,\ntransfer, and storage through wireless smart sensors, (3) Big Data\ntechnologies, (4) continuously integration and deployment of machine learning\nmodels, (5) mobile device and AR/VR applications for fast and better\ndecision-making in the field. Particularly, we proposed a novel probabilistic\ndeep learning reliability modelling approach and demonstrate it in the Turbofan\nEngine Degradation Dataset.",
+                    "published": "2020-09-01",
+                    "url": "http://arxiv.org/abs/2009.00351v1",
+                    "pdf_url": "http://arxiv.org/pdf/2009.00351v1",
+                    "local_pdf": "/static/downloads/2009.00351v1.pdf"
+                },
+                {
+                    "id": "2312.03120v1",
+                    "title": "The Landscape of Modern Machine Learning: A Review of Machine, Distributed and Federated Learning",
+                    "authors": [
+                        "Omer Subasi",
+                        "Oceane Bel",
+                        "Joseph Manzano",
+                        "Kevin Barker"
+                    ],
+                    "summary": "With the advance of the powerful heterogeneous, parallel and distributed\ncomputing systems and ever increasing immense amount of data, machine learning\nhas become an indispensable part of cutting-edge technology, scientific\nresearch and consumer products. In this study, we present a review of modern\nmachine and deep learning. We provide a high-level overview for the latest\nadvanced machine learning algorithms, applications, and frameworks. Our\ndiscussion encompasses parallel distributed learning, deep learning as well as\nfederated learning. As a result, our work serves as an introductory text to the\nvast field of modern machine learning.",
+                    "published": "2023-12-05",
+                    "url": "http://arxiv.org/abs/2312.03120v1",
+                    "pdf_url": "http://arxiv.org/pdf/2312.03120v1",
+                    "local_pdf": "/static/downloads/2312.03120v1.pdf"
+                },
+                {
+                    "id": "2102.01375v2",
+                    "title": "Applications of Federated Learning in Smart Cities: Recent Advances, Taxonomy, and Open Challenges",
+                    "authors": [
+                        "Zhaohua Zheng",
+                        "Yize Zhou",
+                        "Yilong Sun",
+                        "Zhang Wang",
+                        "Boyi Liu",
+                        "Keqiu Li"
+                    ],
+                    "summary": "Federated learning plays an important role in the process of smart cities.\nWith the development of big data and artificial intelligence, there is a\nproblem of data privacy protection in this process. Federated learning is\ncapable of solving this problem. This paper starts with the current\ndevelopments of federated learning and its applications in various fields. We\nconduct a comprehensive investigation. This paper summarize the latest research\non the application of federated learning in various fields of smart cities.\nIn-depth understanding of the current development of federated learning from\nthe Internet of Things, transportation, communications, finance, medical and\nother fields. Before that, we introduce the background, definition and key\ntechnologies of federated learning. Further more, we review the key\ntechnologies and the latest results. Finally, we discuss the future\napplications and research directions of federated learning in smart cities.",
+                    "published": "2021-02-02",
+                    "url": "http://arxiv.org/abs/2102.01375v2",
+                    "pdf_url": "http://arxiv.org/pdf/2102.01375v2",
+                    "local_pdf": "/static/downloads/2102.01375v2.pdf"
+                },
+                {
+                    "id": "2106.09756v1",
+                    "title": "PyKale: Knowledge-Aware Machine Learning from Multiple Sources in Python",
+                    "authors": [
+                        "Haiping Lu",
+                        "Xianyuan Liu",
+                        "Robert Turner",
+                        "Peizhen Bai",
+                        "Raivo E Koot",
+                        "Shuo Zhou",
+                        "Mustafa Chasmai",
+                        "Lawrence Schobs"
+                    ],
+                    "summary": "Machine learning is a general-purpose technology holding promises for many\ninterdisciplinary research problems. However, significant barriers exist in\ncrossing disciplinary boundaries when most machine learning tools are developed\nin different areas separately. We present Pykale - a Python library for\nknowledge-aware machine learning on graphs, images, texts, and videos to enable\nand accelerate interdisciplinary research. We formulate new green machine\nlearning guidelines based on standard software engineering practices and\npropose a novel pipeline-based application programming interface (API). PyKale\nfocuses on leveraging knowledge from multiple sources for accurate and\ninterpretable prediction, thus supporting multimodal learning and transfer\nlearning (particularly domain adaptation) with latest deep learning and\ndimensionality reduction models. We build PyKale on PyTorch and leverage the\nrich PyTorch ecosystem. Our pipeline-based API design enforces standardization\nand minimalism, embracing green machine learning concepts via reducing\nrepetitions and redundancy, reusing existing resources, and recycling learning\nmodels across areas. We demonstrate its interdisciplinary nature via examples\nin bioinformatics, knowledge graph, image/video recognition, and medical\nimaging.",
+                    "published": "2021-06-17",
+                    "url": "http://arxiv.org/abs/2106.09756v1",
+                    "pdf_url": "http://arxiv.org/pdf/2106.09756v1",
+                    "local_pdf": "/static/downloads/2106.09756v1.pdf"
+                },
+                {
+                    "id": "1906.10025v2",
+                    "title": "Modern Deep Reinforcement Learning Algorithms",
+                    "authors": [
+                        "Sergey Ivanov",
+                        "Alexander D'yakonov"
+                    ],
+                    "summary": "Recent advances in Reinforcement Learning, grounded on combining classical\ntheoretical results with Deep Learning paradigm, led to breakthroughs in many\nartificial intelligence tasks and gave birth to Deep Reinforcement Learning\n(DRL) as a field of research. In this work latest DRL algorithms are reviewed\nwith a focus on their theoretical justification, practical limitations and\nobserved empirical properties.",
+                    "published": "2019-06-24",
+                    "url": "http://arxiv.org/abs/1906.10025v2",
+                    "pdf_url": "http://arxiv.org/pdf/1906.10025v2",
+                    "local_pdf": "/static/downloads/1906.10025v2.pdf"
+                },
+                {
+                    "id": "2101.01781v1",
+                    "title": "A Review of Artificial Intelligence Technologies for Early Prediction of Alzheimer's Disease",
+                    "authors": [
+                        "Kuo Yang",
+                        "Emad A. Mohammed"
+                    ],
+                    "summary": "Alzheimer's Disease (AD) is a severe brain disorder, destroying memories and\nbrain functions. AD causes chronically, progressively, and irreversibly\ncognitive declination and brain damages. The reliable and effective evaluation\nof early dementia has become essential research with medical imaging\ntechnologies and computer-aided algorithms. This trend has moved to modern\nArtificial Intelligence (AI) technologies motivated by deeplearning success in\nimage classification and natural language processing. The purpose of this\nreview is to provide an overview of the latest research involving deep-learning\nalgorithms in evaluating the process of dementia, diagnosing the early stage of\nAD, and discussing an outlook for this research. This review introduces various\napplications of modern AI algorithms in AD diagnosis, including Convolutional\nNeural Network (CNN), Recurrent Neural Network (RNN), Automatic Image\nSegmentation, Autoencoder, Graph CNN (GCN), Ensemble Learning, and Transfer\nLearning. The advantages and disadvantages of the proposed methods and their\nperformance are discussed. The conclusion section summarizes the primary\ncontributions and medical imaging preprocessing techniques applied in the\nreviewed research. Finally, we discuss the limitations and future outlooks.",
+                    "published": "2020-12-22",
+                    "url": "http://arxiv.org/abs/2101.01781v1",
+                    "pdf_url": "http://arxiv.org/pdf/2101.01781v1",
+                    "local_pdf": "/static/downloads/2101.01781v1.pdf"
+                },
+                {
+                    "id": "2404.09022v1",
+                    "title": "Navigating the Landscape of Large Language Models: A Comprehensive Review and Analysis of Paradigms and Fine-Tuning Strategies",
+                    "authors": [
+                        "Benjue Weng"
+                    ],
+                    "summary": "With the surge of ChatGPT,the use of large models has significantly\nincreased,rapidly rising to prominence across the industry and sweeping across\nthe internet. This article is a comprehensive review of fine-tuning methods for\nlarge models. This paper investigates the latest technological advancements and\nthe application of advanced methods in aspects such as task-adaptive\nfine-tuning,domain-adaptive fine-tuning,few-shot learning,knowledge\ndistillation,multi-task learning,parameter-efficient fine-tuning,and dynamic\nfine-tuning.",
+                    "published": "2024-04-13",
+                    "url": "http://arxiv.org/abs/2404.09022v1",
+                    "pdf_url": "http://arxiv.org/pdf/2404.09022v1",
+                    "local_pdf": "/static/downloads/2404.09022v1.pdf"
+                },
+                {
+                    "id": "2202.10564v1",
+                    "title": "Human-in-the-loop Machine Learning: A Macro-Micro Perspective",
+                    "authors": [
+                        "Jiangtao Wang",
+                        "Bin Guo",
+                        "Liming Chen"
+                    ],
+                    "summary": "Though technical advance of artificial intelligence and machine learning has\nenabled many promising intelligent systems, many computing tasks are still not\nable to be fully accomplished by machine intelligence. Motivated by the\ncomplementary nature of human and machine intelligence, an emerging trend is to\ninvolve humans in the loop of machine learning and decision-making. In this\npaper, we provide a macro-micro review of human-in-the-loop machine learning.\nWe first describe major machine learning challenges which can be addressed by\nhuman intervention in the loop. Then we examine closely the latest research and\nfindings of introducing humans into each step of the lifecycle of machine\nlearning. Finally, we analyze current research gaps and point out future\nresearch directions.",
+                    "published": "2022-02-21",
+                    "url": "http://arxiv.org/abs/2202.10564v1",
+                    "pdf_url": "http://arxiv.org/pdf/2202.10564v1",
+                    "local_pdf": "/static/downloads/2202.10564v1.pdf"
+                },
+                {
+                    "id": "2410.08224v1",
+                    "title": "A Survey of Spatio-Temporal EEG data Analysis: from Models to Applications",
+                    "authors": [
+                        "Pengfei Wang",
+                        "Huanran Zheng",
+                        "Silong Dai",
+                        "Yiqiao Wang",
+                        "Xiaotian Gu",
+                        "Yuanbin Wu",
+                        "Xiaoling Wang"
+                    ],
+                    "summary": "In recent years, the field of electroencephalography (EEG) analysis has\nwitnessed remarkable advancements, driven by the integration of machine\nlearning and artificial intelligence. This survey aims to encapsulate the\nlatest developments, focusing on emerging methods and technologies that are\npoised to transform our comprehension and interpretation of brain activity. We\ndelve into self-supervised learning methods that enable the robust\nrepresentation of brain signals, which are fundamental for a variety of\ndownstream applications. We also explore emerging discriminative methods,\nincluding graph neural networks (GNN), foundation models, and large language\nmodels (LLMs)-based approaches. Furthermore, we examine generative technologies\nthat harness EEG data to produce images or text, offering novel perspectives on\nbrain activity visualization and interpretation. The survey provides an\nextensive overview of these cutting-edge techniques, their current\napplications, and the profound implications they hold for future research and\nclinical practice. The relevant literature and open-source materials have been\ncompiled and are consistently being refreshed at\n\\url{https://github.com/wpf535236337/LLMs4TS}",
+                    "published": "2024-09-26",
+                    "url": "http://arxiv.org/abs/2410.08224v1",
+                    "pdf_url": "http://arxiv.org/pdf/2410.08224v1",
+                    "local_pdf": "/static/downloads/2410.08224v1.pdf"
+                }
+            ],
+            "tech_proposal": ""
+        },
+        "174b7835-def1-4b4d-9a8f-aed810808fba": {
+            "topic": "万有理论",
+            "keywords": [],
+            "requirements": null,
+            "max_papers": 3,
+            "status": "error",
+            "created_at": "2025-06-20T21:41:45.550040",
+            "expires_at": "2025-06-21T21:41:45.550040",
+            "error": "未找到相关论文。 请尝试使用英文关键词搜索，例如: 'artificial intelligence', 'robotics', 'machine learning'"
+        },
+        "417b2104-73bd-4185-8c1f-11967ea0a1d7": {
+            "topic": "量化策略",
+            "keywords": [],
+            "requirements": null,
+            "max_papers": 2,
+            "status": "processing",
+            "created_at": "2025-06-20T21:55:50.900537",
+            "expires_at": "2025-06-21T21:55:50.900537"
+        },
+        "a1dac708-ad60-4818-80e4-14f7ea357b6b": {
+            "topic": "量化策略",
+            "keywords": [],
+            "requirements": null,
+            "max_papers": 3,
+            "status": "completed",
+            "created_at": "2025-06-20T21:59:22.961834",
+            "expires_at": "2025-06-21T21:59:22.961834",
+            "papers": [
+                {
+                    "id": "2305.04532v2",
+                    "title": "Latest Trends in Artificial Intelligence Technology: A Scoping Review",
+                    "authors": [
+                        "Teemu Niskanen",
+                        "Tuomo Sipola",
+                        "Olli Väänänen"
+                    ],
+                    "summary": "Artificial intelligence is more ubiquitous in multiple domains. Smartphones,\nsocial media platforms, search engines, and autonomous vehicles are just a few\nexamples of applications that utilize artificial intelligence technologies to\nenhance their performance. This study carries out a scoping review of the\ncurrent state-of-the-art artificial intelligence technologies following the\nPRISMA framework. The goal was to find the most advanced technologies used in\ndifferent domains of artificial intelligence technology research. Three\nrecognized journals were used from artificial intelligence and machine learning\ndomain: Journal of Artificial Intelligence Research, Journal of Machine\nLearning Research, and Machine Learning, and articles published in 2022 were\nobserved. Certain qualifications were laid for the technological solutions: the\ntechnology must be tested against comparable solutions, commonly approved or\notherwise well justified datasets must be used while applying, and results must\nshow improvements against comparable solutions. One of the most important parts\nof the technology development appeared to be how to process and exploit the\ndata gathered from multiple sources. The data can be highly unstructured and\nthe technological solution should be able to utilize the data with minimum\nmanual work from humans. The results of this review indicate that creating\nlabeled datasets is very laborious, and solutions exploiting unsupervised or\nsemi-supervised learning technologies are more and more researched. The\nlearning algorithms should be able to be updated efficiently, and predictions\nshould be interpretable. Using artificial intelligence technologies in\nreal-world applications, safety and explainable predictions are mandatory to\nconsider before mass adoption can occur.",
+                    "published": "2023-05-08",
+                    "url": "http://arxiv.org/abs/2305.04532v2",
+                    "pdf_url": "http://arxiv.org/pdf/2305.04532v2",
+                    "local_pdf": "/static/downloads/2305.04532v2.pdf"
+                },
+                {
+                    "id": "2009.00351v1",
+                    "title": "Advancing from Predictive Maintenance to Intelligent Maintenance with AI and IIoT",
+                    "authors": [
+                        "Haining Zheng",
+                        "Antonio R. Paiva",
+                        "Chris S. Gurciullo"
+                    ],
+                    "summary": "As Artificial Intelligent (AI) technology advances and increasingly large\namounts of data become readily available via various Industrial Internet of\nThings (IIoT) projects, we evaluate the state of the art of predictive\nmaintenance approaches and propose our innovative framework to improve the\ncurrent practice. The paper first reviews the evolution of reliability\nmodelling technology in the past 90 years and discusses major technologies\ndeveloped in industry and academia. We then introduce the next generation\nmaintenance framework - Intelligent Maintenance, and discuss its key\ncomponents. This AI and IIoT based Intelligent Maintenance framework is\ncomposed of (1) latest machine learning algorithms including probabilistic\nreliability modelling with deep learning, (2) real-time data collection,\ntransfer, and storage through wireless smart sensors, (3) Big Data\ntechnologies, (4) continuously integration and deployment of machine learning\nmodels, (5) mobile device and AR/VR applications for fast and better\ndecision-making in the field. Particularly, we proposed a novel probabilistic\ndeep learning reliability modelling approach and demonstrate it in the Turbofan\nEngine Degradation Dataset.",
+                    "published": "2020-09-01",
+                    "url": "http://arxiv.org/abs/2009.00351v1",
+                    "pdf_url": "http://arxiv.org/pdf/2009.00351v1",
+                    "local_pdf": "/static/downloads/2009.00351v1.pdf"
+                },
+                {
+                    "id": "2312.03120v1",
+                    "title": "The Landscape of Modern Machine Learning: A Review of Machine, Distributed and Federated Learning",
+                    "authors": [
+                        "Omer Subasi",
+                        "Oceane Bel",
+                        "Joseph Manzano",
+                        "Kevin Barker"
+                    ],
+                    "summary": "With the advance of the powerful heterogeneous, parallel and distributed\ncomputing systems and ever increasing immense amount of data, machine learning\nhas become an indispensable part of cutting-edge technology, scientific\nresearch and consumer products. In this study, we present a review of modern\nmachine and deep learning. We provide a high-level overview for the latest\nadvanced machine learning algorithms, applications, and frameworks. Our\ndiscussion encompasses parallel distributed learning, deep learning as well as\nfederated learning. As a result, our work serves as an introductory text to the\nvast field of modern machine learning.",
+                    "published": "2023-12-05",
+                    "url": "http://arxiv.org/abs/2312.03120v1",
+                    "pdf_url": "http://arxiv.org/pdf/2312.03120v1",
+                    "local_pdf": "/static/downloads/2312.03120v1.pdf"
+                }
+            ],
+            "tech_proposal": "# Technical Proposal: Advanced AI - Driven Intelligent Maintenance System\n\n## 1. Project Overview\n### Introduction\nIn the era of rapid technological advancement, Artificial Intelligence (AI) has become ubiquitous across multiple domains. This project aims to develop an advanced AI - driven Intelligent Maintenance System that combines the latest AI and Industrial Internet of Things (IIoT) technologies. The system will address the challenges in current predictive maintenance approaches and introduce a more efficient and intelligent solution.\n\nThe core of the system lies in leveraging AI algorithms to process the vast amount of real - time data collected from industrial equipment through IIoT devices. This will enable more accurate prediction of equipment failures, reduced maintenance costs, and improved overall operational efficiency.\n\n## 2. Technical Architecture\n\n### System Architecture Diagram\n```mermaid\ngraph LR\n    classDef process fill:#E5F6FF,stroke:#73A6FF,stroke - width:2px;\n    A[IIoT Devices]:::process --> B[Data Collection]:::process\n    B --> C[Data Transfer]:::process\n    C --> D[Data Storage]:::process\n    D --> E[Machine Learning Models]:::process\n    E --> F[Predictive Analytics]:::process\n    F --> G[Decision - Making Support]:::process\n    G --> H[Mobile/AR - VR Interface]:::process\n    I[Human Operator]:::process <--> H\n    H --> J[Maintenance Actions]:::process\n```\n\n### Component Design\n- **IIoT Devices**: Wireless smart sensors will be installed on industrial equipment to collect real - time data such as temperature, vibration, pressure, etc.\n- **Data Collection**: A middleware layer will be responsible for aggregating data from multiple IIoT devices.\n- **Data Transfer**: Secure and reliable data transfer protocols will be used to send the collected data to the central server.\n- **Data Storage**: Big Data technologies such as Hadoop Distributed File System (HDFS) and NoSQL databases (e.g., Cassandra) will be used to store the large - scale and unstructured data.\n- **Machine Learning Models**: Probabilistic reliability modelling with deep learning algorithms will be employed to analyze the stored data and predict equipment failures.\n- **Predictive Analytics**: Advanced analytics tools will be used to generate insights from the model predictions.\n- **Decision - Making Support**: The system will provide recommendations for maintenance actions based on the analytics results.\n- **Mobile/AR - VR Interface**: Mobile applications and AR/VR technologies will be used to present the information to human operators in the field, enabling fast and better decision - making.\n\n## 3. Key Technologies\n\n### Core Technologies\n- **Probabilistic Deep Learning Reliability Modelling**: As proposed in Paper 2, this approach combines the power of deep learning with probabilistic models to provide more accurate and reliable predictions of equipment failures. It can handle the uncertainty in the data and provide confidence intervals for the predictions.\n- **Unsupervised and Semi - supervised Learning**: As mentioned in Paper 1, these learning technologies are becoming increasingly important due to the labor - intensive nature of creating labeled datasets. They can be used to pre - process the unstructured data collected from IIoT devices and discover hidden patterns.\n- **Federated Learning**: This technology, as discussed in Paper 3, allows the machine learning models to be trained on decentralized data sources without sharing the raw data. This is beneficial for industries where data privacy and security are major concerns.\n\n### Algorithms\n- **Convolutional Neural Networks (CNNs)**: Can be used for analyzing time - series data collected from sensors, such as vibration data, to detect patterns related to equipment failures.\n- **Recurrent Neural Networks (RNNs) and their variants (e.g., LSTM, GRU)**: Suitable for handling sequential data, which is common in industrial sensor data. They can capture the temporal dependencies in the data and make more accurate predictions.\n\n## 4. Implementation Path\n\n### Step 1: Requirements Gathering and Planning\n- Conduct interviews with industry stakeholders to understand the specific requirements of the maintenance system.\n- Define the scope, goals, and performance indicators of the project.\n\n### Step 2: IIoT Device Installation and Data Collection\n- Select and install appropriate wireless smart sensors on industrial equipment.\n- Set up the data collection middleware to aggregate the data from the sensors.\n\n### Step 3: Data Storage and Pre - processing\n- Set up the Big Data storage infrastructure.\n- Use unsupervised and semi - supervised learning algorithms to pre - process the unstructured data.\n\n### Step 4: Machine Learning Model Development\n- Develop and train the probabilistic deep learning reliability models using the pre - processed data.\n- Implement federated learning techniques if necessary.\n\n### Step 5: Predictive Analytics and Decision - Making Support\n- Develop the analytics tools to generate insights from the model predictions.\n- Create the decision - making support system to provide maintenance recommendations.\n\n### Step 6: Mobile/AR - VR Interface Development\n- Develop mobile applications and AR/VR interfaces to present the information to human operators.\n\n### Step 7: System Testing and Deployment\n- Conduct comprehensive testing of the entire system, including functionality, performance, and security testing.\n- Deploy the system in the industrial environment and monitor its performance.\n\n## 5. Resource Requirements\n\n### Human Resources\n- AI/ML Engineers: Responsible for developing and training the machine learning models.\n- IIoT Specialists: In charge of installing and configuring the IIoT devices and data collection systems.\n- Software Developers: Develop the data storage, analytics, and interface components of the system.\n- Maintenance Technicians: Provide domain knowledge and assist in system testing and deployment.\n\n### Hardware Resources\n- IIoT Sensors: For data collection from industrial equipment.\n- Servers: For data storage and processing.\n- Mobile Devices: For the mobile application interface.\n- AR/VR Headsets: For the AR/VR interface.\n\n### Software Resources\n- Big Data Platforms: Hadoop, Spark, etc.\n- Machine Learning Frameworks: TensorFlow, PyTorch.\n- Database Management Systems: Cassandra, MongoDB.\n- Mobile App Development Frameworks: React Native, Flutter.\n\n## 6. Risk Assessment\n\n### Potential Challenges\n- **Data Quality**: The data collected from IIoT devices may be noisy, incomplete, or inaccurate, which can affect the performance of the machine learning models.\n- **Model Interpretability**: The deep learning models may be complex and difficult to interpret, which can make it challenging for human operators to trust the predictions.\n- **Security and Privacy**: The system will handle sensitive industrial data, and there is a risk of data breaches and privacy violations.\n- **Technical Compatibility**: There may be compatibility issues between different hardware and software components of the system.\n\n### Mitigation Strategies\n- **Data Quality**: Implement data cleaning and pre - processing techniques, and use data validation mechanisms to ensure the quality of the data.\n- **Model Interpretability**: Use model interpretability techniques such as LIME (Local Interpretable Model - agnostic Explanations) and SHAP (SHapley Additive exPlanations) to make the model predictions more understandable.\n- **Security and Privacy**: Implement strong security measures such as encryption, access control, and intrusion detection systems. Adhere to relevant data protection regulations.\n- **Technical Compatibility**: Conduct thorough compatibility testing during the development phase and select hardware and software components that are known to be interoperable.\n\n## 7. Project Timeline\n\n### Phase 1: Requirements Gathering and Planning (2 months)\n- Stakeholder interviews and requirement analysis (1 month)\n- Project planning and scope definition (1 month)\n\n### Phase 2: IIoT Device Installation and Data Collection (3 months)\n- Sensor selection and installation (1.5 months)\n- Data collection system setup (1.5 months)\n\n### Phase 3: Data Storage and Pre - processing (2 months)\n- Big Data infrastructure setup (1 month)\n- Data pre - processing algorithm development (1 month)\n\n### Phase 4: Machine Learning Model Development (4 months)\n- Model design and training (3 months)\n- Model evaluation and optimization (1 month)\n\n### Phase 5: Predictive Analytics and Decision - Making Support (2 months)\n- Analytics tool development (1 month)\n- Decision - making support system implementation (1 month)\n\n### Phase 6: Mobile/AR - VR Interface Development (2 months)\n- Mobile app development (1 month)\n- AR/VR interface development (1 month)\n\n### Phase 7: System Testing and Deployment (2 months)\n- System testing (1 month)\n- Deployment and monitoring (1 month)\n\n## 8. References\n- Teemu Niskanen, Tuomo Sipola, Olli Vnnen. \"Latest Trends in Artificial Intelligence Technology: A Scoping Review\". http://arxiv.org/abs/2305.04532v2, 2023 - 05 - 08.\n- Haining Zheng, Antonio R. Paiva, Chris S. Gurciullo. \"Advancing from Predictive Maintenance to Intelligent Maintenance with AI and IIoT\". http://arxiv.org/abs/2009.00351v1, 2020 - 09 - 01.\n- Omer Subasi, Oceane Bel, Joseph Manzano, Kevin Barker. \"The Landscape of Modern Machine Learning: A Review of Machine, Distributed and Federated Learning\". http://arxiv.org/abs/2312.03120v1, 2023 - 12 - 05."
+        },
+        "6a1ad00f-f206-4d99-a6b8-37b1bec054f8": {
+            "topic": "万有理论",
+            "keywords": [],
+            "requirements": null,
+            "max_papers": 3,
+            "status": "processing",
+            "created_at": "2025-06-20T22:19:26.079624",
+            "expires_at": "2025-06-21T22:19:26.079624"
+        }
+    },
+    "papers": {},
+    "tech_proposals": {}
+}

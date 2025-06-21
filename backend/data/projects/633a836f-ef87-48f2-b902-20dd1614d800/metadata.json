@@ -1,0 +1,21 @@
+{
+  "id": "633a836f-ef87-48f2-b902-20dd1614d800",
+  "title": "具身智能",
+  "topic": "量子计算工程",
+  "created_at": "2025-06-21T10:29:43.221883",
+  "status": "failed",
+  "params": {
+    "title": "具身智能",
+    "topic": "量子计算工程",
+    "description": "",
+    "model_type": "default",
+    "max_papers": 5,
+    "custom_keywords": [],
+    "params": {}
+  },
+  "task_id": "d1f00ad3-9f18-41bf-800a-b75bdf1e7a63",
+  "updated_at": "2025-06-21T10:29:49.619291",
+  "translated_topic": "Quantum Computing Engineering",
+  "status_message": "已翻译主题，正在搜索相关论文",
+  "error": "未找到与主题 '量子计算工程' 相关的论文"
+}

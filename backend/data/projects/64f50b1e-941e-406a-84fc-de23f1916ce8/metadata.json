@@ -1,0 +1,21 @@
+{
+  "id": "64f50b1e-941e-406a-84fc-de23f1916ce8",
+  "title": "量化",
+  "topic": "量化",
+  "created_at": "2025-06-21T10:18:25.805453",
+  "status": "failed",
+  "params": {
+    "title": "量化",
+    "topic": "量化",
+    "description": "",
+    "model_type": "default",
+    "max_papers": 5,
+    "custom_keywords": [],
+    "params": {}
+  },
+  "task_id": "0641b701-8653-4d90-8fbf-bfe20c294b21",
+  "updated_at": "2025-06-21T10:18:34.191886",
+  "translated_topic": "Quantization",
+  "status_message": "已翻译主题，正在搜索相关论文",
+  "error": "未找到与主题 '量化' 相关的论文"
+}

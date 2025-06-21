@@ -1,0 +1,19 @@
+{
+  "id": "ef275a4c-5c2d-44c9-8ef0-684cf081c659",
+  "title": "量子计算",
+  "topic": "Quantum ",
+  "created_at": "2025-06-21T10:14:53.818590",
+  "status": "failed",
+  "params": {
+    "title": "量子计算",
+    "topic": "Quantum ",
+    "description": "",
+    "model_type": "default",
+    "max_papers": 3,
+    "custom_keywords": [],
+    "params": {}
+  },
+  "task_id": "6fe3b5f6-2893-46b5-b1c7-248b0992dbb8",
+  "updated_at": "2025-06-21T10:14:53.824591",
+  "error": "未找到与主题 'Quantum ' 相关的论文"
+}
