@@ -1,20 +1,19 @@
 import os
 
 # 方舟引擎(Volcano Engine)API配置
-VOLCANO_API_KEY = os.getenv("VOLCANO_API_KEY", "7efdde88-d1b7-4ca3-add9-e9e01be8e012")
+VOLCANO_API_KEY = os.getenv("VOLCANO_API_KEY", "****")
 VOLCANO_API_URL = os.getenv("VOLCANO_API_URL", "https://ark.cn-beijing.volces.com/api/v3/chat/completions")
 
 # 方舟引擎豆包系列模型
-VOLCANO_MODEL = "doubao-seed-1-6-250615"           # 主要模型
-VOLCANO_DOUBAO_MODEL = "doubao-seed-1-6-250615"    # 豆包专业版
-VOLCANO_DOUBAO_LITE = "doubao-seed-1-6-250615"     # 豆包轻量版
-VOLCANO_READER_MODEL = "doubao-seed-1-6-250615"    # 豆包32K上下文版(支持LinkReader)
+VOLCANO_MODEL = "doubao-seed-1-6-250615"           
+VOLCANO_DOUBAO_MODEL = "doubao-seed-1-6-250615"    
+VOLCANO_DOUBAO_LITE = "doubao-seed-1-6-250615"     
+VOLCANO_READER_MODEL = "doubao-seed-1-6-250615"   
 
 # 当前选择的模型 - 主模型
 CURRENT_MAIN_MODEL = "volcano"  # 可选 "volcano" 或 "deepseek"
 # 当前选择的方舟模型
-CURRENT_VOLCANO_MODEL = VOLCANO_MODEL  # 默认使用思维专业版
-
+CURRENT_VOLCANO_MODEL = VOLCANO_MODEL  
 # 模型选择允许从环境变量覆盖
 CURRENT_VOLCANO_MODEL = os.getenv("VOLCANO_MODEL", CURRENT_VOLCANO_MODEL)
 # 检查是否指定了使用豆包轻量版
